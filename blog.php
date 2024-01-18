@@ -56,13 +56,13 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.php">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="services.php">Services</a></li>
+          <li><a href="portfolio.php">Portfolio</a></li>
+          <li><a href="team.php">Team</a></li>
+          <li><a href="blog.php" class="active">Blog</a></li>
          
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -102,14 +102,14 @@
                   </div>
 
                   <h2 class="title">
-                    <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a>
+                    <a href="blog-details.php">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a>
                   </h2>
 
                   <div class="meta-top">
                     <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.php">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.php"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.php">12 Comments</a></li>
                     </ul>
                   </div>
 
@@ -120,7 +120,7 @@
                   </div>
 
                   <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                    <a href="blog-details.php">Read More <i class="bi bi-arrow-right"></i></a>
                   </div>
 
                 </article>
@@ -134,14 +134,14 @@
                   </div>
 
                   <h2 class="title">
-                    <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                    <a href="blog-details.php">Nisi magni odit consequatur autem nulla dolorem</a>
                   </h2>
 
                   <div class="meta-top">
                     <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.php">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.php"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.php">12 Comments</a></li>
                     </ul>
                   </div>
 
@@ -152,7 +152,7 @@
                   </div>
 
                   <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                    <a href="blog-details.php">Read More <i class="bi bi-arrow-right"></i></a>
                   </div>
 
                 </article>
@@ -166,14 +166,14 @@
                   </div>
 
                   <h2 class="title">
-                    <a href="blog-details.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</a>
+                    <a href="blog-details.php">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</a>
                   </h2>
 
                   <div class="meta-top">
                     <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.php">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.php"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.php">12 Comments</a></li>
                     </ul>
                   </div>
 
@@ -184,7 +184,7 @@
                   </div>
 
                   <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                    <a href="blog-details.php">Read More <i class="bi bi-arrow-right"></i></a>
                   </div>
 
                 </article>
@@ -198,14 +198,14 @@
                   </div>
 
                   <h2 class="title">
-                    <a href="blog-details.html">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem.</a>
+                    <a href="blog-details.php">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem.</a>
                   </h2>
 
                   <div class="meta-top">
                     <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.php">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.php"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.php">12 Comments</a></li>
                     </ul>
                   </div>
 
@@ -216,7 +216,7 @@
                   </div>
 
                   <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                    <a href="blog-details.php">Read More <i class="bi bi-arrow-right"></i></a>
                   </div>
 
                 </article>
@@ -230,14 +230,14 @@
                   </div>
 
                   <h2 class="title">
-                    <a href="blog-details.html">Accusamus quaerat aliquam qui debitis facilis consequatur</a>
+                    <a href="blog-details.php">Accusamus quaerat aliquam qui debitis facilis consequatur</a>
                   </h2>
 
                   <div class="meta-top">
                     <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.php">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.php"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.php">12 Comments</a></li>
                     </ul>
                   </div>
 
@@ -248,7 +248,7 @@
                   </div>
 
                   <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                    <a href="blog-details.php">Read More <i class="bi bi-arrow-right"></i></a>
                   </div>
 
                 </article>
@@ -262,14 +262,14 @@
                   </div>
 
                   <h2 class="title">
-                    <a href="blog-details.html">Distinctio provident quibusdam numquam aperiam aut</a>
+                    <a href="blog-details.php">Distinctio provident quibusdam numquam aperiam aut</a>
                   </h2>
 
                   <div class="meta-top">
                     <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.php">John Doe</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.php"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.php">12 Comments</a></li>
                     </ul>
                   </div>
 
@@ -280,7 +280,7 @@
                   </div>
 
                   <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Read More <i class="bi bi-arrow-right"></i></a>
+                    <a href="blog-details.php">Read More <i class="bi bi-arrow-right"></i></a>
                   </div>
 
                 </article>
@@ -330,7 +330,7 @@
                   <div class="post-item mt-3">
                     <img src="assets/img/blog/blog-recent-1.jpg" alt="" class="flex-shrink-0">
                     <div>
-                      <h4><a href="blog-post.html">Nihil blanditiis at in nihil autem</a></h4>
+                      <h4><a href="blog-post.php">Nihil blanditiis at in nihil autem</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                   </div><!-- End recent post item-->
@@ -338,7 +338,7 @@
                   <div class="post-item">
                     <img src="assets/img/blog/blog-recent-2.jpg" alt="" class="flex-shrink-0">
                     <div>
-                      <h4><a href="blog-post.html">Quidem autem et impedit</a></h4>
+                      <h4><a href="blog-post.php">Quidem autem et impedit</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                   </div><!-- End recent post item-->
@@ -346,7 +346,7 @@
                   <div class="post-item">
                     <img src="assets/img/blog/blog-recent-3.jpg" alt="" class="flex-shrink-0">
                     <div>
-                      <h4><a href="blog-post.html">Id quia et et ut maxime similique occaecati ut</a></h4>
+                      <h4><a href="blog-post.php">Id quia et et ut maxime similique occaecati ut</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                   </div><!-- End recent post item-->
@@ -354,7 +354,7 @@
                   <div class="post-item">
                     <img src="assets/img/blog/blog-recent-4.jpg" alt="" class="flex-shrink-0">
                     <div>
-                      <h4><a href="blog-post.html">Laborum corporis quo dara net para</a></h4>
+                      <h4><a href="blog-post.php">Laborum corporis quo dara net para</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                   </div><!-- End recent post item-->
@@ -362,7 +362,7 @@
                   <div class="post-item">
                     <img src="assets/img/blog/blog-recent-5.jpg" alt="" class="flex-shrink-0">
                     <div>
-                      <h4><a href="blog-post.html">Et dolores corrupti quae illo quod dolor</a></h4>
+                      <h4><a href="blog-post.php">Et dolores corrupti quae illo quod dolor</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                   </div><!-- End recent post item-->

@@ -23,70 +23,7 @@
       </div>
     </div><!-- End Breadcrumbs -->
 
-    <!-- ======= Our Services Section ======= -->
-    <section id="services-list" class="services-list">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <h2>Our Services Principles</h2>
-
-        </div>
-
-        <div class="row gy-5">
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="bi bi-briefcase" style="color: #f57813;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">reliability</a></h4>
-              <p class="description">Unlocking business potential with flexible and secure cloud computing solutions.</p>
-            </div>
-          </div>
-          <!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist" style="color: #15a04a;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">Speed</a></h4>
-              <p class="description">Efficient web solutions through state-of-the-art web application development.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" style="color: #d90769;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">communication</a></h4>
-              <p class="description">Ensuring reliable network performance through professional installation and maintenance. </p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0"><i class="bi bi-binoculars" style="color: #15bfbc;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">security</a></h4>
-              <p class="description">Empowering businesses with professional, cutting-edge website development</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high" style="color: #f5cf13;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">availabilty</a></h4>
-              <p class="description">Creating seamless mobile experiences through expert app development.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week" style="color: #1335f5;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">honesty </a></h4>
-              <p class="description">Enhancing brand visibility and reach through strategic digital marketing campaigns</p>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-    </section><!-- End Our Services Section -->
+  
 
     <!-- ======= Services Cards Section ======= -->
     <section id="services-cards" class="services-cards">

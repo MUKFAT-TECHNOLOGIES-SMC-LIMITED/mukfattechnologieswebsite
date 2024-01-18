@@ -19,7 +19,7 @@
           <li><a href="team.php">Team</a></li>
        
         
-          <li><a href="contact.php">Contact</a></li>
+          <li><a href="contact.php">Bookings</a></li>
         </ul>
       </nav><!-- .navbar -->
 

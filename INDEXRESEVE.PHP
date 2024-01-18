@@ -1,7 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <style>
+    .swiper-container {
+      width: 100%;
+      height: 50vh;
+    }
 
+    .swiper-slide {
+      position: relative;
+      width: 100%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .carousel-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .blur-overlay {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 25%; /* Adjust the height for the blurred area */
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
+      filter: blur(10px); /* Adjust the blur intensity as needed */
+      pointer-events: none;
+    }
+
+    .carousel-text {
+      position: absolute;
+      bottom: 20px; /* Adjust the bottom position for the text */
+      text-align: center;
+      color: #fff;
+      width: 100%;
+      z-index: 1; /* Ensure text is above the blur overlay */
+    }
+
+    .carousel-text h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: white;
+    }
+  </style>
 
 <?php include 'major/head.php'; ?>
 
@@ -18,44 +67,62 @@
 
  <section id="hero" class=" d-flex align-items-center">
 
- <div  id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+
+
+
+
+    <div class="swiper-slide">
+              <img src="assets/img/2.jpg" alt="Slide 1" class="carousel-image">
+              <div class="blur-overlay"></div>
+              <div style="color: white;" class="carousel-text">
+                 <p class="animate__animated animate__fadeInDown">fgfgfg</p>
+                      <h2 class="animate__animated animate__fadeInUp">gfgfg</h2>
+                      
+                    </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/2.jpg" alt="Slide 2" class="carousel-image">
+              <div class="blur-overlay"></div>
+              <div style="color: white;" class="carousel-text">
+                 <p class="animate__animated animate__fadeInDown">fgfgfg</p>
+                      <h2 class="animate__animated animate__fadeInUp">gfgfg</h2>
+                      
+                    </div>
+            </div>
+
+
+
+
+    
+    <!-- Add more slides as needed -->
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets/img/2.jpg" class="d-block w-100" alt="...">
-      <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="assets/img/2.jpg" class="d-block w-100" alt="...">
-      <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="assets/img/2.jpg" class="d-block w-100" alt="...">
-      <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+  <!-- Add Pagination -->
+ 
+  <!-- Add Navigation -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
 </div>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    //autoplay: {
+    //delay: 5000, // Adjust the delay in milliseconds (e.g., 5000ms = 5 seconds)
+  //},
+  });
+</script>
 
 
  
@@ -77,12 +144,12 @@
  
 
     <!-- ======= Why Choose Us Section ======= -->
-    <section  id="why-us" class="why-us">
+    <section id="why-us" class="why-us">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
           <h2>Why Choose Us</h2>
-          <p> mukfat technologies smc ltd is a leading provider of IT services and solutions for businesses and individuals.
+          <p> is a leading provider of IT services and solutions for businesses and individuals.
             It was founded with the goal of helping our clients to achieve their business goals by leveraging the latest technology. 
             We offer a wide range of services, including software & hardware services, cloud services, network services, and more.</p>
         </div>
@@ -139,10 +206,6 @@
       </div>
     </section><!-- End Why Choose Us Section -->
 
-
-
- 
-
     <!-- ======= Our Services Section ======= -->
     <section id="services-list" class="services-list">
       <div class="container" data-aos="fade-up">
@@ -152,59 +215,58 @@
 
         </div>
 
+        <div class="row gy-5">
 
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <img src="assets/img/cta-bg.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">hosting & cloud computing</h5>
-        <p class="card-text">Unlocking business potential with flexible and secure cloud computing solutions.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="assets\img\hero-bg.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">hardware sales & maintinance</h5>
-        <p class="card-text">Efficient web solutions through state-of-the-art web application development.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="assets/img/15.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">networking</h5>
-        <p class="card-text">Ensuring reliable network performance through professional installation and maintenance. </p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="assets/img/16.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">web & mobile development</h5>
-        <p class="card-text">Empowering businesses with professional, cutting-edge website development</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-        <section id="call-to-action" >
-      <div class="container" data-aos="fade-up">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-          <a class=" btn btn-primary" href="services.php">SEE MORE SERVICES</a>
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-briefcase" style="color: #f57813;"></i></div>
+            <div>
+              <h4 class="title"><a href="#" class="stretched-link">cloud computing</a></h4>
+              <p class="description">Unlocking business potential with flexible and secure cloud computing solutions.</p>
+            </div>
           </div>
-        </div>
+          <!-- End Service Item -->
 
-      </div>
-    </section>
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist" style="color: #15a04a;"></i></div>
+            <div>
+              <h4 class="title"><a href="#" class="stretched-link">software development</a></h4>
+              <p class="description">Efficient web solutions through state-of-the-art web application development.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" style="color: #d90769;"></i></div>
+            <div>
+              <h4 class="title"><a href="#" class="stretched-link">networking</a></h4>
+              <p class="description">Ensuring reliable network performance through professional installation and maintenance. </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-binoculars" style="color: #15bfbc;"></i></div>
+            <div>
+              <h4 class="title"><a href="#" class="stretched-link">website development</a></h4>
+              <p class="description">Empowering businesses with professional, cutting-edge website development</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high" style="color: #f5cf13;"></i></div>
+            <div>
+              <h4 class="title"><a href="#" class="stretched-link">mobile development</a></h4>
+              <p class="description">Creating seamless mobile experiences through expert app development.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week" style="color: #1335f5;"></i></div>
+            <div>
+              <h4 class="title"><a href="#" class="stretched-link">digital marketing </a></h4>
+              <p class="description">Enhancing brand visibility and reach through strategic digital marketing campaigns</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
 
       </div>
     </section><!-- End Our Services Section -->
@@ -223,79 +285,6 @@
       </div>
     </section><!-- End Call To Action Section -->
 
-
-
-
-
-      <!-- ======= Our product Section ======= -->
-      <section id="services-list" class="services-list">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <h2>our product innovations</h2>
-
-        </div>
-
-
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <img src="files/1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">ESCHOOL</h5>
-        <p class="card-text">Unlocking business potential with flexible and secure cloud computing solutions.</p>
-      </div>
-      <div class="bg-primary card-footer">
-        <a href="productdetails.php" class="text-muted">link</a>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="files/2.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">IBMS</h5>
-        <p class="card-text">Efficient web solutions through state-of-the-art web application development.</p>
-      </div>
-      <div class="bg-success card-footer">
-        <small class="text-muted">link</small>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="files/3.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">DLEARN</h5>
-        <p class="card-text">Ensuring reliable network performance through professional installation and maintenance. </p>
-      </div>
-      <div class="bg-danger card-footer">
-        <small class="text-muted">link</small>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="files/4.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">POCKETPAL</h5>
-        <p class="card-text">Empowering businesses with professional, cutting-edge website development</p>
-      </div>
-      <div class=" bg-warning card-footer">
-        <small class="text-muted">link</small>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-       
-
-      </div>
-    </section><!-- End Our products Section -->
-
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
 
@@ -309,49 +298,49 @@
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-store-line" style="color: #ffbb2c;"></i>
-                  <span>honest</span>
+                  <span>cloud computing</span>
                 </div>
               </div><!-- End Icon List Item-->
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-                  <span>hardworking </span>
+                  <span>software development </span>
                 </div>
               </div><!-- End Icon List Item-->
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-                  <span>reliable</span>
+                  <span>networking</span>
                 </div>
               </div><!-- End Icon List Item-->
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-                  <span>inteligent</span>
+                  <span>hardware sales</span>
                 </div>
               </div><!-- End Icon List Item-->
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-database-2-line" style="color: #47aeff;"></i>
-                  <span>secure</span>
+                  <span>media</span>
                 </div>
               </div><!-- End Icon List Item-->
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-                  <span>innovative</span>
+                  <span>digital marketing</span>
                 </div>
               </div><!-- End Icon List Item-->
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-                  <span>motivators</span>
+                  <span>Compassionate Approach</span>
                 </div>
               </div><!-- End Icon List Item-->
 
@@ -377,8 +366,8 @@
         <div class="container" data-aos="fade-up" data-aos-delay="300">
           <div class="row">
             <div class="col-md-6">
-              <h4>A WORD FROM THE FOUNDING DIRECTOR</h4>
-              <p>agreat thank you goes to all our customers both new and existing . its my plesure that today you are a apart of mukfat technologies smc ltd . years ago this was a dream that one day i would innovate to motivate ones success both in business and personal activites with the help of technology . however today i will proudly say happy is me and my team creating solutions to what may hinder your success . thank you for supporting our dream and indeed asure you even better results tomorrow</p>
+              <h4>Begin Your Tech Journey <br>Today</h4>
+              <p>Ready to take the first step towards resolving your legal matter? Get started now by scheduling your free consultation with Mukfat Technologies smc ltd. Our experienced team is here to listen to your concerns, offer expert advice, and develop a personalized tech strategy tailored to your unique needs. Don't delay, let our trusted engineerss guide you through this process with confidence and determination. Click below to start your journey towards a successful resolution."</p>
               <a href="contact.php" class="btn-get-started">BOOK NOW</a>
             </div>
           </div>
@@ -388,12 +377,12 @@
 
     </section><!-- End Features Section -->
 
-    <!-- ======= Recent Blog Posts Section ----->
+    <!-- ======= Recent Blog Posts Section 
     <section id="recent-posts" class="recent-posts">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>research department publication</h2>
+          <h2>Most active services</h2>
 
         </div>
 
@@ -408,7 +397,7 @@
               </div>
               <h3 class="post-title">Navigating Divorce:</h3>
               <p> Tips for a Smooth Transition and Protecting Your Interests...</p>
-              <a href="blog-details.php" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -421,7 +410,7 @@
               </div>
               <h3 class="post-title">The Importance of Estate Planning</h3>
               <p>Safeguarding Your Assets and Legacy...</p>
-              <a href="blog-details.php" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -434,7 +423,7 @@
               </div>
               <h3 class="post-title">Understanding DUI Defense Strategies</h3>
               <p>Your Rights and Legal Options...</p>
-              <a href="blog-details.php" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -447,14 +436,14 @@
               </div>
               <h3 class="post-title">Business Legal Matters</h3>
               <p>From Startups to Contracts - A Comprehensive Guide...</p>
-              <a href="blog-details.php" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
         </div>
 
       </div>
-    </section> <!--- End Recent Blog Posts Section -->
+    </section> End Recent Blog Posts Section -->
 
   </main><!-- End #main -->
 
@@ -465,8 +454,16 @@
 
   <div id="preloader"></div>
 
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <?php include 'major/scripts.php'; ?>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
