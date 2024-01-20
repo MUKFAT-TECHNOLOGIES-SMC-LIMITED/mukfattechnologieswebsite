@@ -26,26 +26,45 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/img/2.jpg" class="d-block w-100" alt="...">
+      <img src="files/coursel/1.jpeg" class="d-block w-100" alt="...">
       <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/img/2.jpg" class="d-block w-100" alt="...">
+      <img src="files/coursel/2.jpg" class="d-block w-100" alt="...">
       <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/img/2.jpg" class="d-block w-100" alt="...">
+      <img src="files/coursel/3.jpg" class="d-block w-100" alt="...">
       <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
       </div>
     </div>
+
+
+    <div class="carousel-item">
+      <img src="files/coursel/4.jpg" class="d-block w-100" alt="...">
+      <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="files/coursel/5.jpg" class="d-block w-100" alt="...">
+      <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+
+
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -165,7 +184,7 @@
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="assets\img\hero-bg.jpg" class="card-img-top" alt="...">
+      <img src="assets/img/hero-bg.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">hardware sales & maintinance</h5>
         <p class="card-text">Efficient web solutions through state-of-the-art web application development.</p>
@@ -181,6 +200,8 @@
       </div>
     </div>
   </div>
+
+  
   <div class="col">
     <div class="card h-100">
       <img src="assets/img/16.jpg" class="card-img-top" alt="...">
