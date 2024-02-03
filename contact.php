@@ -17,7 +17,7 @@
         <h2>Booking</h2>
         <ol>
           <li><a href="index.php">Home</a></li>
-          <li>Booking</li>
+          <li id="bookingtitle">Booking</li>
         </ol>
 
       </div>
@@ -59,7 +59,7 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form id="bookingform" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-4 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -69,29 +69,29 @@
                 </div>
 
                 <div class="col-md-4 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your contact" required>
+                  <input type="email" class="form-control" name="clientcontact" id="clientcontact" placeholder="Your contact" required>
                 </div>
               </div>
 
               <div class="form-group mt-3">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your organisation " required>
+              <input type="email" class="form-control" name="company" id="company" placeholder="Your organisation " required>
               </div>
 
               <div class="form-group mt-3">
-                <select type="text" class="form-control"  name="subject" id="subject" required>
+                <select type="text" class="form-control"  name="service" id="service" required>
                   <option value="">service</option>
                   <option>website development</option>
                 </select>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message"  id="message" rows="5" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div id="messagearea" style="display:none; color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;">for some reason there is failure to make your booking please retry later</div>
+               
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button onclick="booknow()" id="booknowbutton" type="button">Send Message</button></div>
             </form>
 
           </div><!-- End Contact Form -->
@@ -110,16 +110,7 @@
 
   <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <?php include 'major/scripts.php';?>
 
 </body>
 

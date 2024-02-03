@@ -23,10 +23,11 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="files/coursel/1.jpeg" class="d-block w-100" alt="...">
+      <img src="files/coursel/1.jpg" class="d-block w-100" alt="...">
       <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
@@ -420,7 +421,8 @@
 
         <div class="row gy-5">
 
-          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-xl-3 col-md-6 " data-aos="fade-up" data-aos-delay="100">
+           
             <div class="post-box">
               <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
               <div class="meta">
