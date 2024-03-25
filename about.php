@@ -41,13 +41,13 @@
 
               </p>
               <h4 class="title"><a href="">mission</a></h4>
-              <p tyle="color: white;">  provide exceptional technology solutions that enhance the lives and businesses of our clients. We strive to stay at the forefront of innovation and to continuously improve our products and services to meet the evolving needs of a rapidly changing world.</p>
+              <p style="color: white;">  provide exceptional technology solutions that enhance the lives and businesses of our clients. We strive to stay at the forefront of innovation and to continuously improve our products and services to meet the evolving needs of a rapidly changing world.</p>
 
               <h4 class="title"><a href="">core values</a></h4>
-              <p tyle="color: white;" >Committed to our core values: Innovation, Customer Focus, Integrity, Collaboration, Continuous Improvement, Agility, Sustainability, Diversity & Inclusion, Empowerment. Delivering exceptional value through innovation and commitment to clients.</p>
+              <p style="color: white;" >Committed to our core values: Innovation, Customer Focus, Integrity, Collaboration, Continuous Improvement, Agility, Sustainability, Diversity & Inclusion, Empowerment. Delivering exceptional value through innovation and commitment to clients.</p>
 
               <h4 tyle="color: white;" class="title"><a href="">quality services</a></h4>
-              <p tyle="color: white;" >we are Committed to highest quality services and client satisfaction through user-friendly website and responsive support. Exceeding expectations and delivering exceptional value always. </p>
+              <p style="color: white;" >we are Committed to highest quality services and client satisfaction through user-friendly website and responsive support. Exceeding expectations and delivering exceptional value always. </p>
 
              
             </div>
