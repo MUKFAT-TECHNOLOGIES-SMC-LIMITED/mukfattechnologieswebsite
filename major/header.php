@@ -4,7 +4,7 @@
       <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="d-flex align-items-center">MUKFAT TECHNOLOGIES</h1>
+        <h1 class="d-flex align-items-center">MUKFAT  TECHNOLOGIES</h1>
       </a>
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -19,7 +19,7 @@
           <li><a href="team.php">Team</a></li>
        
         
-          <li><a href="contact.php">Bookings</a></li>
+          <li><a href="booking.php">Bookings</a></li>
         </ul>
       </nav><!-- .navbar -->
 

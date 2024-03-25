@@ -24,7 +24,7 @@
     </div><!-- End Breadcrumbs -->
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section style="background-color: #001f3f;" id="about" class="about">
       <div class="container" data-aos="fade-up">
 
         <div class="row gy-4" data-aos="fade-up">
@@ -58,7 +58,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Why Choose Us Section ======= -->
-    <section id="why-us" class="why-us">
+    <section style="background-color: #47aeff;" id="why-us" class="why-us">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
@@ -133,7 +133,7 @@
     </section><!-- End Call To Action Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
+    <section style="background-color: #001f3f;" id="team" class="team">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
@@ -143,10 +143,10 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img style="width: 100%; height: 400px;" src="files/7.png" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -155,7 +155,7 @@
                 </div>
               </div>
               <div class="member-info">
-              <h4>matovu hassan</h4>
+                <h4>matovu hassan</h4>
                 <span>managing Director</span>
               </div>
             </div>
@@ -164,7 +164,7 @@
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/1.webp" class="img-fluid" alt="">
+                <img style="width: 100%; height: 400px;" src="files/8.PNG" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -173,7 +173,7 @@
                 </div>
               </div>
               <div class="member-info">
-              <h4>dungu kayemba emmanual</h4>
+                <h4>dungu kayemba emmanual</h4>
                 <span>senior advocate</span>
               </div>
             </div>
@@ -182,7 +182,7 @@
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img style="width: 100%; height: 400px;" src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -191,8 +191,8 @@
                 </div>
               </div>
               <div class="member-info">
-              <h4>kabanyana hawah</h4>
-                <span>sales manager</span>
+                <h4>kabanyana hawah</h4>
+                <span>secretary</span>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -200,7 +200,7 @@
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/1.webp" class="img-fluid" alt="">
+                <img style="width: 100%; height: 400px;" src="files/6.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -209,11 +209,12 @@
                 </div>
               </div>
               <div class="member-info">
-              <h4>mutaka hussien</h4>
+                <h4>shk mutaka hussien</h4>
                 <span>senior advisor</span>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div> 
+        <!-- End Team Member -->
 
         </div>
 

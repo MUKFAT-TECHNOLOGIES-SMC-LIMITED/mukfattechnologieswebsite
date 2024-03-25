@@ -24,7 +24,7 @@
     </div><!-- End Breadcrumbs -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section style="background-color: #001f3f;" id="contact" >
       <div class="container position-relative" data-aos="fade-up">
 
         <div class="row gy-4 d-flex justify-content-end">
@@ -32,26 +32,26 @@
           <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
 
             <div class="info-item d-flex">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <i style="color:white;" class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
-                <h4>Location:</h4>
-                <p>nasser business center , Nasser road kampala  uganda</p>
+                <h4 style="color:white;">Location:</h4>
+                <p style="color:white;">nasser business center , Nasser road kampala  uganda</p>
               </div>
             </div><!-- End Info Item -->
 
             <div class="info-item d-flex">
-              <i class="bi bi-envelope flex-shrink-0"></i>
+              <i style="color:white;" class="bi bi-envelope flex-shrink-0"></i>
               <div>
-                <h4>Email:</h4>
-                <p>sales@mukfattechnologies.com</p>
+                <h4 style="color:white;">Email:</h4>
+                <p style="color:white;">sales@mukfattechnologies.com</p>
               </div>
             </div><!-- End Info Item -->
 
             <div class="info-item d-flex">
-              <i class="bi bi-phone flex-shrink-0"></i>
+              <i style="color:white;" class="bi bi-phone flex-shrink-0"></i>
               <div>
-                <h4>Call:</h4>
-                <p>+256760266034</p>
+                <h4 style="color:white;">Call:</h4>
+                <p style="color:white;">+256760266034</p>
               </div>
             </div><!-- End Info Item -->
 

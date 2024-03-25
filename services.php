@@ -26,9 +26,9 @@
   
 
     <!-- ======= Services Cards Section ======= -->
-    <section id="services-cards" class="services-cards">
+    <section style="background-color: #001f3f;" id="services-cards" class="services-cards">
       <div class="section-header">
-        <h2>Our Services</h2>
+        <h2 style="color: white;">Our Services</h2>
 
       </div>
       <div class="container" data-aos="fade-up">
@@ -407,7 +407,7 @@
     </section><!-- End Services Cards Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <section style="background-color: #47aeff;" id="testimonials" class="testimonials">
   <div class="container" data-aos="fade-up">
     <div class="section-header">
       <h2>Testimonials</h2>
