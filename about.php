@@ -72,41 +72,43 @@
           <div class="col-xl-7 slides  position-relative">
 
             <div class="slides-1 swiper">
-              <div class="swiper-wrapper">
+            <div class="swiper-wrapper">
 
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">Client-Centric Approach</h3>
-                    <h4 class="mb-3">Your Needs Always Come First.</h4>
-                    <p>At mukfat technologies, our clients are at the heart of everything we do. We understand that each case is unique, and we are committed to providing personalized solutions that address your specific legal concerns. Our attorneys take the time to listen to your story, understand your objectives, and guide you through every step of the legal process. With Tenax Advocates, you can trust that your needs will be our top priority, and we'll work tirelessly to protect your rights and achieve the best possible outcome.</p>
-                  </div>
-                </div><!-- End slide item -->
+<div class="swiper-slide">
+  <div class="item">
+    <h3 class="mb-3">Client-Centric Approach</h3>
+    <h4 class="mb-3">Your Needs Always Come First.</h4>
+    <p>A client-centric approach lies at the heart of MukFat Technologies. We prioritize understanding client needs, crafting tailored solutions, maintaining clear communication, adapting to changes, and providing continuous support</p>
+  </div>
+</div><!-- End slide item -->
 
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">Experienced and Skilled Attorneys</h3>
-                    <h4 class="mb-3">Knowledge You Can Rely On.</h4>
-                    <p>Our team of highly experienced enginners brings a wealth of technology knowledge and a proven track record of success. With years of practice in diverse areas of IT, we have handled a wide range of cases, from straightforward to highly complex matters. When you choose mukfat technologies, you are gaining the advantage of skilled enginers and computer scientists who know how to navigate the technology  landscape effectively. Rest assured, your case will be in the hands of competent and zealous tech experts who are dedicated to achieving the best results for you..</p>
-                  </div>
-                </div><!-- End slide item -->
+<div class="swiper-slide">
+  <div class="item">
+    <h3 class="mb-3">Experienced and Skilled engineers</h3>
+    <h4 class="mb-3">Knowledge You Can Rely On.</h4>
+    <p>
+Our team at MukFat Technologies is comprised of highly experienced and skilled engineers who possess a wealth of knowledge and expertise in the technological landscape. With their diverse skill sets and innovative mindset, they consistently deliver high-quality solutions that exceed expectations.</p>
+  </div>
+</div><!-- End slide item -->
 
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">Results-Driven Advocacy</h3>
-                    <h4 class="mb-3">Your Success is Our Mission.</h4>
-                    <p>At Tenax Advocates, we are committed to delivering results that matter to you. Our unwavering dedication to achieving favorable outcomes for our clients is what sets us apart. Whether it's securing a fair settlement in a civil dispute, protecting your interests in a family law matter, or mounting a robust defense in a criminal case, we approach every challenge with a strategic mindset and unwavering determination. Your success is our mission, and we won't rest until we've fought tirelessly for your rights and achieved the best resolution possible.</p>
-                  </div>
-                </div><!-- End slide item -->
+<div class="swiper-slide">
+  <div class="item">
+    <h3 class="mb-3">Results-Driven </h3>
+    <h4 class="mb-3">Your Success is Our Mission.</h4>
+    <p>
+Our team of experienced and skilled engineers at MukFat Technologies is not only highly proficient but also passionately results-driven. They are dedicated to achieving tangible outcomes and exceeding expectations through their innovative solutions and collaborative approach.</p>
+  </div>
+</div><!-- End slide item -->
 
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">Trusted Reputation and Client Satisfaction</h3>
-                    <h4 class="mb-3">Testimonials Speak for Themselves.</h4>
-                    <p>We take great pride in the trust we have earned from our clients over the years. Our commitment to providing exceptional legal services and compassionate support has resulted in numerous satisfied clients who have benefited from our representation. Don't just take our word for it – our clients' testimonials and positive reviews are a testament to our dedication to excellence. When you choose Tenax Advocates, you are choosing a law firm that has built a solid reputation for its professionalism, integrity, and successful outcomes. Let us be your advocates in the pursuit of justice and the protection of your rights.</p>
-                  </div>
-                </div><!-- End slide item -->
+<div class="swiper-slide">
+  <div class="item">
+    <h3 class="mb-3">Trusted Reputation and Client Satisfaction</h3>
+    <h4 class="mb-3">Testimonials Speak for Themselves.</h4>
+    <p>Renowned for our trusted reputation and unwavering commitment to client satisfaction, MukFat Technologies is your reliable partner for transformative solutions.</p>
+  </div>
+</div><!-- End slide item -->
 
-              </div>
+</div>
               <div class="swiper-pagination"></div>
             </div>
             <div class="swiper-button-prev"></div>
