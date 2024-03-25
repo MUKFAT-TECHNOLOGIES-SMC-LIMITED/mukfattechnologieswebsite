@@ -33,21 +33,21 @@
           </div>
           <div class="col-lg-8">
             <div class="content ps-lg-5">
-              <h3>MUKFAT TECHNOLOGIES SMC LTD</h3>
+              <h3 style="color: white;">MUKFAT TECHNOLOGIES SMC LTD</h3>
 
               <h4 class="title"><a href="">vision</a></h4>
-              <p>
+              <p tyle="color: white;">
                 Our ultimate goal is to revolutionize the technology industry and create a future where everyone has access to seamless, intuitive, and transformational technology solutions, driving progress and prosperity for all.
 
               </p>
               <h4 class="title"><a href="">mission</a></h4>
-              <p>  provide exceptional technology solutions that enhance the lives and businesses of our clients. We strive to stay at the forefront of innovation and to continuously improve our products and services to meet the evolving needs of a rapidly changing world.</p>
+              <p tyle="color: white;">  provide exceptional technology solutions that enhance the lives and businesses of our clients. We strive to stay at the forefront of innovation and to continuously improve our products and services to meet the evolving needs of a rapidly changing world.</p>
 
               <h4 class="title"><a href="">core values</a></h4>
-              <p class="description">Committed to our core values: Innovation, Customer Focus, Integrity, Collaboration, Continuous Improvement, Agility, Sustainability, Diversity & Inclusion, Empowerment. Delivering exceptional value through innovation and commitment to clients.</p>
+              <p tyle="color: white;" class="description">Committed to our core values: Innovation, Customer Focus, Integrity, Collaboration, Continuous Improvement, Agility, Sustainability, Diversity & Inclusion, Empowerment. Delivering exceptional value through innovation and commitment to clients.</p>
 
-              <h4 class="title"><a href="">quality services</a></h4>
-              <p class="description">we are Committed to highest quality services and client satisfaction through user-friendly website and responsive support. Exceeding expectations and delivering exceptional value always. </p>
+              <h4 tyle="color: white;" class="title"><a href="">quality services</a></h4>
+              <p tyle="color: white;" class="description">we are Committed to highest quality services and client satisfaction through user-friendly website and responsive support. Exceeding expectations and delivering exceptional value always. </p>
 
              
             </div>
