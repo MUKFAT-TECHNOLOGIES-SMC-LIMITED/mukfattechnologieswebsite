@@ -484,7 +484,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
 
       </div>
 
-      <div style="background-color: grey;" class="details">
+      <div style="background-color: #47aeff;" class="details">
         <div class="container" data-aos="fade-up" data-aos-delay="300">
           <div class="row">
             <div class="col-md-6">
@@ -499,8 +499,8 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
 
     </section><!-- End Features Section -->
 
-    <!-- ======= Recent Blog Posts Section ----->
-    <section style="background-color: #47aeff;"  id="recent-posts" class="recent-posts">
+    <!-- ======= Recent Blog Posts Section 
+    <section   id="recent-posts" class="recent-posts">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
@@ -566,7 +566,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
         </div>
 
       </div>
-    </section> <!--- End Recent Blog Posts Section -->
+    </section> - End Recent Blog Posts Section -->
 
   </main><!-- End #main -->
 
