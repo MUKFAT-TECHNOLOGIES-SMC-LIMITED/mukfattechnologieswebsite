@@ -31,14 +31,14 @@
       <img src="files/coursel/1.jpg" class="d-block w-100" alt="...">
       <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
         <h5>Mastering the Digital Landscape</h5>
-        <p>Dive into the realm of network architecture with our comprehensive course, 'Network Architect: Mastering the Digital Landscape.' Embark on a journey led by seasoned professionals to explore the intricacies of managing complex networks. This course equips you with the knowledge and skills needed to navigate the ever-evolving digital ecosystem with confidence. From designing robust infrastructures to optimizing performance and security, learn how to orchestrate networks effectively to meet the demands of modern enterprises. Join us and become a proficient network architect capable of steering organizations towards seamless connectivity and innovation.</p>
+        <p> Embark on a journey led by seasoned professionals to explore the intricacies of managing complex networks. This course equips you with the knowledge and skills needed to navigate the ever-evolving digital ecosystem with confidence. From designing robust infrastructures to optimizing performance and security, learn how to orchestrate networks effectively to meet the demands of modern enterprises. Join us and become a proficient network architect capable of steering organizations towards seamless connectivity and innovation.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="files/coursel/2.jpg" class="d-block w-100" alt="...">
       <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
         <h5>Personalized One-on-One Software Training</h5>
-        <p>Unlock the full potential of your software with our exclusive one-on-one training program. Experience personalized guidance tailored to your unique needs and skill level. Our expert instructors will walk you through every aspect of the software, from basic functionalities to advanced techniques, ensuring you gain comprehensive mastery. Whether you're a beginner looking to grasp the fundamentals or an experienced user aiming to refine your skills, our customized approach guarantees efficient and effective learning. Embrace a transformative learning journey and elevate your proficiency with our dedicated one-on-one software training.</p>
+        <p>Unlock the full potential of our software with our exclusive one-on-one training program. Experience personalized guidance tailored to your unique needs and skill level. Our expert instructors will walk you through every aspect of the software, from basic functionalities to advanced techniques, ensuring you gain comprehensive mastery. Whether you're a beginner looking to grasp the fundamentals or an experienced user aiming to refine your skills, our customized approach guarantees efficient and effective learning. Embrace a transformative learning journey and elevate your proficiency with our dedicated one-on-one software training.</p>
       </div>
     </div>
     <div class="carousel-item">
