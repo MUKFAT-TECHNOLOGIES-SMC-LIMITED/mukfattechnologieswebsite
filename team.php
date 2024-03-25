@@ -21,7 +21,7 @@
         </ol>
 
       </div>
-    </div><!-- End Breadcrumbs -->
+    </div><!-- End Breadcrumbs --> 
 
     <!-- ======= Team Section ======= -->
     <section style="background-color: #47aeff;" id="team" class="team">
