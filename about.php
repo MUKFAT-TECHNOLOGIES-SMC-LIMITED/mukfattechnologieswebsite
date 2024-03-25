@@ -139,7 +139,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Our Team</h2>
+          <h2 style="color: white;">Our Team</h2>
 
         </div>
 
