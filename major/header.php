@@ -15,7 +15,7 @@
           <li><a href="www.mukfattechnologies.com" class="active">Home</a></li>
           <li><a href="about.php">About</a></li>
           <li><a href="services.php">Services</a></li>
-          <li><a href="portfolio.php">Portfolio</a></li>
+          <!-- <li><a href="portfolio.php">Portfolio</a></li> -->
           <li><a href="team.php">Team</a></li>
        
         
