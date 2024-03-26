@@ -38,12 +38,12 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card-item">
               <div class="row">
-                <div class="col-xl-5">
+                <div class="col-xl-5"> 
                   <img style="width:300px; height: 100px;" class="card-bg" src="files/services/1.jpg">
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title">web development</h4>
+                    <h4 class="card-title">website development</h4>
                     <p>Transform your online presence with custom website development tailored to your brand. Our team crafts responsive, user-friendly designs to elevate your digital footprint. Let's bring your vision to life and make an impact in the digital landscape.</p>
                   </div>
                 </div>
@@ -150,7 +150,7 @@
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title">voice over ip</h4>
+                    <h4 class="card-title">office phone system </h4>
                     <p>Revolutionize your communication with Voice over IP (VoIP) solutions tailored to your needs. Our expertise ensures seamless integration and crystal-clear voice quality, empowering your team to connect effortlessly. Experience the future of communication with our VoIP solutions. </p>
                   </div>
                 </div>

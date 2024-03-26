@@ -81,6 +81,26 @@
                 <select type="text" class="form-control"  name="service" id="service" required>
                   <option value="">service</option>
                   <option>website development</option>
+                  <option>software support </option>
+                  <option>software development </option>
+                  <option>mobile app development </option>
+                  <option>cloud services </option>
+                  <option>network setup and configuration </option>
+                  <option>office phone system </option>
+                  <option>cyber security and disaster recovery </option>
+                  <option>backup solutions and data managment </option>
+                  <option>repair services </option>
+                  <option>computer training </option>
+                  <option>IT consulting  </option>
+                  <option>videography & photography </option>
+                  <option>digital marketing </option>
+                  <option>managed IT services </option>
+                  <option>IT automation and monitoring </option>
+                  <option>help desk </option>
+                  <option>IT project management </option>
+                  <option>email services </option>
+                  <option>hardware procurement </option>
+                  
                 </select>
               </div>
               <div class="form-group mt-3">
