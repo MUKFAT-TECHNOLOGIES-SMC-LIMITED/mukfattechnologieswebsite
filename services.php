@@ -11,7 +11,7 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/services-header.jpg');">
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/services-header.webp');">
       <div class="container position-relative d-flex flex-column align-items-center">
 
         <h2>Services</h2>
@@ -39,7 +39,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5"> 
-                  <img style="width:300px; height: 100px;" class="card-bg" src="files/services/1.jpg">
+                  <img style="width:300px; height: 100px;" class="card-bg" src="files/services/1.webp">
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -55,7 +55,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(assets/img/10.jpg);"></div>
+                  <div class="card-bg" style="background-image: url(assets/img/10.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -87,7 +87,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(assets/img/17.jpg);"></div>
+                  <div class="card-bg" style="background-image: url(assets/img/17.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -146,7 +146,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(files/services/4.png);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/4.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -165,7 +165,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(files/services/5.jpg);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/5.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -184,7 +184,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(files/services/6.jpg);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/6.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -203,7 +203,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(files/services/7.jpg);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/7.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -222,7 +222,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(files/services/8.jpg);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/8.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -240,7 +240,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(files/services/9.jpg);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/9.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -257,7 +257,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(assets/img/11.jpg);"></div>
+                  <div class="card-bg" style="background-image: url(assets/img/11.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -275,7 +275,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(assets/img/18.jpg);"></div>
+                  <div class="card-bg" style="background-image: url(assets/img/18.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -292,7 +292,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(files/services/12.jpg);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/12.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -310,7 +310,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(files/services/10.png);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/10.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -328,7 +328,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(files/services/13.jpg);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/13.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -363,7 +363,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(files/services/15.png);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/15.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -381,7 +381,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(assets/img/10.jpg);"></div>
+                  <div class="card-bg" style="background-image: url(assets/img/10.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -425,7 +425,7 @@
               Exceptional service and innovative solutions! Mukfat Technologies SMC Ltd delivered a project that exceeded our expectations. Their commitment to quality and attention to detail are truly commendable.
             </p>
             <div class="profile mt-auto">
-              <img src="assets/img/testimonials/african-avatar-1.jpg" class="testimonial-img" alt="African Avatar">
+              <img src="assets/img/testimonials/african-avatar-1.webp" class="testimonial-img" alt="African Avatar">
               <h3>Oluwafemi Adegoke</h3>
               <h4>Ceo &amp; Founder</h4>
             </div>
@@ -441,7 +441,7 @@
               Mukfat Technologies SMC Ltd stands out in delivering timely and creative solutions. Their team's dedication to excellence and professionalism is truly impressive. It was a pleasure working with them.
             </p>
             <div class="profile mt-auto">
-              <img src="assets/img/testimonials/african-avatar-2.jpg" class="testimonial-img" alt="African Avatar">
+              <img src="assets/img/testimonials/african-avatar-2.webp" class="testimonial-img" alt="African Avatar">
               <h3>Zainab Abimbola</h3>
               <h4>Designer</h4>
             </div>
@@ -457,7 +457,7 @@
               Mukfat Technologies SMC Ltd demonstrated unparalleled expertise in our project. Their proactive approach and commitment to client satisfaction make them a trusted partner. Highly recommended.
             </p>
             <div class="profile mt-auto">
-              <img src="assets/img/testimonials/african-avatar-3.jpg" class="testimonial-img" alt="African Avatar">
+              <img src="assets/img/testimonials/african-avatar-3.webp" class="testimonial-img" alt="African Avatar">
               <h3>Oluwakemi Olufemi</h3>
               <h4>Store Owner</h4>
             </div>
@@ -473,7 +473,7 @@
               Mukfat Technologies SMC Ltd delivered beyond our expectations. Their attention to detail and commitment to excellence set them apart. A reliable partner for any engineering and technology needs.
             </p>
             <div class="profile mt-auto">
-              <img src="assets/img/testimonials/african-avatar-4.jpg" class="testimonial-img" alt="African Avatar">
+              <img src="assets/img/testimonials/african-avatar-4.webp" class="testimonial-img" alt="African Avatar">
               <h3>Jabari Nzube</h3>
               <h4>Freelancer</h4>
             </div>
@@ -489,7 +489,7 @@
               Mukfat Technologies SMC Ltd is a team of dedicated professionals who go the extra mile. Their commitment to quality, combined with their innovative approach, makes them a standout choice. Excellent service!
             </p>
             <div class="profile mt-auto">
-              <img src="assets/img/testimonials/african-avatar-5.jpg" class="testimonial-img" alt="African Avatar">
+              <img src="assets/img/testimonials/african-avatar-5.webp" class="testimonial-img" alt="African Avatar">
               <h3>Amaechi Onyeka</h3>
               <h4>Entrepreneur</h4>
             </div>
