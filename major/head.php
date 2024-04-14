@@ -6,7 +6,7 @@ session_start();
 include 'backend/database.php';
 
 // Check if visit has already been recorded during this session
-if (isset($_SESSION['visit_recorded'])) {
+if (!isset($_SESSION['visit_recorded'])) {
   
 
     // Create connection
