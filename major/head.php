@@ -1,3 +1,37 @@
+
+<?php
+// Start or resume session
+session_start();
+
+include 'backend/database.php';
+
+// Check if visit has already been recorded during this session
+if (!isset($_SESSION['visit_recorded'])) {
+  
+
+    // Create connection
+    $conn =  connection();
+
+   
+
+    // Prepare SQL statement to insert visit into database
+    $sql = "INSERT INTO visits (website,visit_time) VALUES (1,NOW())";
+
+    // Execute SQL statement
+    if ($conn->query($sql) === TRUE) {
+        
+        
+        // Mark visit as recorded in session to prevent duplicates
+        $_SESSION['visit_recorded'] = true;
+    } 
+
+    // Close database connection
+    $conn->close();
+}
+?>
+
+
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
