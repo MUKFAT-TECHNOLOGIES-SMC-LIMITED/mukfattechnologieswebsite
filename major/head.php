@@ -20,10 +20,19 @@ if (isset($_SESSION['visit_recorded'])) {
     // Get referrer (if available)
     $referrer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
 
+    $accept_language = isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) ? $_SERVER['HTTP_ACCEPT_LANGUAGE'] : '';
+
+    $host = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : '';
+
+    $connection = isset($_SERVER['HTTP_CONNECTION']) ? $_SERVER['HTTP_CONNECTION'] : '';
+
+    $session_id = session_id();
+
    
 
     // Prepare SQL statement to insert visit into database
-    $sql = "INSERT INTO websitevisits (website,ip,useragent,referrer,visittime) VALUES (1,'$ip_address','$user_agent','$referrer',NOW())";
+    $sql = "INSERT INTO websitevisits (acceptlanguage,clienthost,websiteconnection,sessionid,website,ip,useragent,referrer,visittime) 
+    VALUES ('$accept_language','$host','$connection','$session_id',1,'$ip_address','$user_agent','$referrer',NOW())";
 
     // Execute SQL statement
     if ($conn->query($sql) === TRUE) {
