@@ -6,16 +6,24 @@ session_start();
 include 'backend/database.php';
 
 // Check if visit has already been recorded during this session
-if (!isset($_SESSION['visit_recorded'])) {
+if (isset($_SESSION['visit_recorded'])) {
   
 
     // Create connection
     $conn =  connection();
 
+    $ip_address = $_SERVER['REMOTE_ADDR'];
+
+    // Get user agent string
+    $user_agent = $_SERVER['HTTP_USER_AGENT'];
+
+    // Get referrer (if available)
+    $referrer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
+
    
 
     // Prepare SQL statement to insert visit into database
-    $sql = "INSERT INTO websitevisits (website,visittime) VALUES (1,NOW())";
+    $sql = "INSERT INTO websitevisits (website,ip,useragent,referrer,visittime) VALUES (1,'$ip_address','$user_agent','$referrer',NOW())";
 
     // Execute SQL statement
     if ($conn->query($sql) === TRUE) {
