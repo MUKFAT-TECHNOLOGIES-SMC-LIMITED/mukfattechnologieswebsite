@@ -15,7 +15,7 @@ if (isset($_SESSION['visit_recorded'])) {
    
 
     // Prepare SQL statement to insert visit into database
-    $sql = "INSERT INTO visits (website,visittime) VALUES (1,NOW())";
+    $sql = "INSERT INTO websitevisits (website,visittime) VALUES (1,NOW())";
 
     // Execute SQL statement
     if ($conn->query($sql) === TRUE) {
