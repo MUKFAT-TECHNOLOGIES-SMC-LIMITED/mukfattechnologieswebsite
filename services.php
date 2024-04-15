@@ -55,7 +55,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(assets/img/10.webp);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/19.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -87,7 +87,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(assets/img/17.webp);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/17.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -257,7 +257,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(assets/img/11.webp);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/11.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -275,7 +275,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(assets/img/18.webp);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/18.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -345,7 +345,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(files/services/14.jpeg);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/14.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -381,7 +381,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(assets/img/10.webp);"></div>
+                  <div class="card-bg" style="background-image: url(files/services/19.webp);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
