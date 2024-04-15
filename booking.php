@@ -35,7 +35,7 @@
               <i style="color:white;" class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h4 style="color:white;">Location:</h4>
-                <p style="color:white;">nasser business center , Nasser road kampala  uganda</p>
+                <p style="color:white;"> Nkrumah road - kampala  uganda</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -50,7 +50,7 @@
             <div class="info-item d-flex">
               <i style="color:white;" class="bi bi-whatsapp flex-shrink-0"></i>
               <div>
-                <h4 style="color:white;">whatsapp:</h4>
+                <h4 style="color:white;">whatsapp:</h4>-
                 <p style="color:white;">+256760266034</p>
               </div>
             </div><!-- End Info Item -->
