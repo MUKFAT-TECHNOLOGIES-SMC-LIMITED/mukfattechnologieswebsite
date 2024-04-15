@@ -265,16 +265,16 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
         <div class="row row-cols-1 row-cols-md-4 g-4">
   <div class="col">
     <div class="card h-100">
-      <img src="assets/img/cta-bg.webp" class="card-img-top" alt="...">
+      <img src="assets/img/13.webp" class="card-img-top" alt="...">
       <div style="background-color: #47aeff;" class="card-body">
-        <h5 class="card-title">hosting & cloud computing</h5>
+        <h5 class="card-title">hosting & cloud computing</h5> 
         <p class="card-text">Unlocking business potential with flexible and secure cloud computing solutions.</p>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="assets/img/hero-bg.webp" class="card-img-top" alt="...">
+      <img src="files/services/7.webp" class="card-img-top" alt="...">
       <div style="background-color: #47aeff;" class="card-body">
         <h5 class="card-title">hardware sales & maintinance</h5>
         <p class="card-text">Efficient web solutions through state-of-the-art web application development.</p>
@@ -283,7 +283,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="assets/img/15.webp" class="card-img-top" alt="...">
+      <img src="files/services/3.webp" class="card-img-top" alt="...">
       <div style="background-color: #47aeff;" class="card-body">
         <h5 class="card-title">networking</h5>
         <p class="card-text">Ensuring reliable network performance through professional installation and maintenance. </p>
@@ -294,7 +294,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
   
   <div class="col">
     <div class="card h-100">
-      <img src="assets/img/16.webp" class="card-img-top" alt="...">
+      <img src="files/services/1.webp" class="card-img-top" alt="...">
       <div style="background-color: #47aeff;" class="card-body">
         <h5 class="card-title">web & mobile development</h5>
         <p class="card-text">Empowering businesses with professional, cutting-edge website development</p>

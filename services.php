@@ -3,7 +3,7 @@
 
 <?php include 'major/head.php'; ?>
 
-<body class="page-services">
+<body class="page-services"> 
 
   <!-- ======= Header ======= -->
   <?php include 'major/otherheader.php'; ?><!-- End Header -->
