@@ -327,7 +327,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
           <div class="col-lg-6 text-center">
             <h3>Book Your Free Consultation Now</h3>
             <p>Ready to enhance your tech and achieve favorable increadible outcomes? Take the first step towards a successful resolution by scheduling your free consultation today. Our experienced engineers are standing by to listen to your concerns, analyze your case, and provide personalized tech guidance tailored to your needs. Don't wait, let mukfat technologies smc ltd be your trusted tech ally on this journey. Click below to book your free consultation now.</p>
-            <a class="cta-btn" href="booking.php">BOOK</a>
+            <a style="background-color: #001f3f;" class="cta-btn" href="booking.php">BOOK</a>
           </div>
         </div>
 
@@ -490,7 +490,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
             <div class="col-md-6">
               <h4>A WORD FROM THE FOUNDING DIRECTOR</h4>
               <p>agreat thank you goes to all our customers both new and existing . its my plesure that today you are a apart of mukfat technologies smc ltd . years ago this was a dream that one day i would innovate to motivate ones success both in business and personal activites with the help of technology . however today i will proudly say happy is me and my team creating solutions to what may hinder your success . thank you for supporting our dream and indeed asure you even better results tomorrow</p>
-              <a href="booking.php" class="btn-get-started">BOOK NOW</a>
+              <a style="background-color: #001f3f;" href="booking.php" class="btn-get-started">BOOK NOW</a>
             </div>
           </div>
 
