@@ -118,7 +118,7 @@
   <div class="card mb-3" style="max-width: 540px;">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="files/index/2.png" class="img-fluid rounded-start" alt="...">
+      <img src="files/index/2.webp" class="img-fluid rounded-start" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -476,7 +476,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
           </div>
           <div class="col-lg-5 position-relative" data-aos="fade-up" data-aos-delay="200">
             <div class="phone-wrap">
-              <img style=" width: 500px; height: 300px;" src="files/12.png" alt="Image" class="img-fluid">
+              <img style=" width: 500px; height: 300px;" src="files/12.webp" alt="Image" class="img-fluid">
               
             </div>
           </div>
