@@ -48,9 +48,9 @@
             </div><!-- End Info Item -->
 
             <div class="info-item d-flex">
-              <i style="color:white;" class="bi bi-phone flex-shrink-0"></i>
+              <i style="color:white;" class="bi bi-whatsapp flex-shrink-0"></i>
               <div>
-                <h4 style="color:white;">Call:</h4>
+                <h4 style="color:white;">whatsapp:</h4>
                 <p style="color:white;">+256760266034</p>
               </div>
             </div><!-- End Info Item -->
