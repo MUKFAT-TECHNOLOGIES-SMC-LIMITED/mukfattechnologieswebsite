@@ -31,7 +31,7 @@
 
           <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
 
-            <div class="info-item d-flex justify-content-around">
+            <div class="info-item d-flex">
               <i style="color:white;" class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h4 style="color:white;">Location:</h4>
@@ -39,7 +39,7 @@
               </div>
             </div><!-- End Info Item -->
 
-            <div class="info-item d-flex justify-content-around">
+            <div class="info-item d-flex">
               <i style="color:white;" class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h4 style="color:white;">Email:</h4>
@@ -47,7 +47,7 @@
               </div>
             </div><!-- End Info Item -->
 
-            <div class="info-item d-flex justify-content-around">
+            <div class="info-item d-flex">
               <i style="color:white;" class="bi bi-whatsapp flex-shrink-0"></i>
               <div>
                 <h4 style="color:white;">whatsapp:</h4>
