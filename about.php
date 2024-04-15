@@ -148,7 +148,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
         <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="member-img">
-                <img style="width: 100%; height: 400px;" src="files/7.png" class="img-fluid" alt="">
+                <img style="width: 100%; height: 400px;" src="files/team/2.webp" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -166,7 +166,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img style="width: 100%; height: 400px;" src="files/8.PNG" class="img-fluid" alt="">
+                <img style="width: 100%; height: 400px;" src="files/team/3.webp" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -184,7 +184,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="team-member">
               <div class="member-img">
-                <img style="width: 100%; height: 400px;" src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img style="width: 100%; height: 400px;" src="files/team/4.webp" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -202,7 +202,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="team-member">
               <div class="member-img">
-                <img style="width: 100%; height: 400px;" src="files/6.jpg" class="img-fluid" alt="">
+                <img style="width: 100%; height: 400px;" src="files/team/1.webp" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
