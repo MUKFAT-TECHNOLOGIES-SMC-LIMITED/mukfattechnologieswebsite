@@ -114,7 +114,7 @@
               <div class="text-center"><button  id="booknowbutton" type="button">ORDER</button></div>
             </form>
 
-            <div id="messagearea" style=" color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;"></div>
+            <div id="messagearea" ></div>
 
           </div><!-- End Contact Form -->
 
@@ -159,11 +159,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (xhr.status === 200) {
                     // Success, display success message in messageArea div
                     messageArea.style.color = "green";
+                    messageArea.style.background = "#8BC34A"; // Green background
                     messageArea.innerText = "Your booking has been submitted successfully!";
                     form.reset(); // Clear the form
                 } else {
                     // Error, display error message in messageArea div
-                    messageArea.style.color = "red";
+                    messageArea.style.color = "#fff";
+                    messageArea.style.background = "#df1529"; // Red background
                     messageArea.innerText = "An error occurred. Please try again later.";
                 }
                 // Change button text back to "Order"
@@ -171,7 +173,8 @@ document.addEventListener("DOMContentLoaded", function () {
             };
             xhr.onerror = function () {
                 // Error, display error message in messageArea div
-                messageArea.style.color = "red";
+                messageArea.style.color = "#fff";
+                messageArea.style.background = "#df1529"; // Red background
                 messageArea.innerText = "An error occurred. Please try again later.";
                 // Change button text back to "Order"
                 submitButton.innerText = "Order";
@@ -191,7 +194,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (!name || !company || !contact || !service || !message || !email) {
             // Display error message
-            messageArea.style.color = "red";
+            messageArea.style.color = "#fff";
+            messageArea.style.background = "#df1529"; // Red background
             messageArea.innerText = "Please fill in all fields.";
             return false;
         }
