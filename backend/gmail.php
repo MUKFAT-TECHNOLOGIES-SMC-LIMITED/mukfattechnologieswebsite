@@ -31,7 +31,7 @@ $randomNumber = rand($min, $max);
         <div style=\"background-color: #F04D0C; height: 5px;\"></div> <!-- Blue strip -->
         <div style=\"padding: 20px; background-color: #f2f2f2;\"> <!-- Light grey background -->
             <p>Dear $name,</p>
-            <p>Subject: <strong style=\"text-decoration: underline;\">$service</strong> </p>
+            <p>Subject: <strong style=\"text-decoration: underline;\">$service  Order request </strong> </p>
             <p> We are writing to confirm the receipt of your booking. Your Booking is now in our system and is being processed by our  team.</p>
             <p>For tracking purposes, your order has been assigned the following order number: $randomNumber This unique identifier will help us efficiently manage and monitor the progress of your booking</p>
             <p>Rest assured, our experienced team is dedicated to delivering high-quality results and ensuring that your order progresses smoothly and efficiently.</p>
