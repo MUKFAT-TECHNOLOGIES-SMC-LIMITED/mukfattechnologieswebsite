@@ -112,7 +112,7 @@
                
               </div>
               <div class="text-center">
-                <button onclick="makeorder();" class="form-control btn btn-primary"  id="booknowbutton" type="button">ORDER</button>
+                <a onclick="makeorder();" class="form-control btn btn-primary"  id="booknowbutton" type="button">ORDER</a>
               </div>
             </form>
 
