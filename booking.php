@@ -180,7 +180,7 @@
             };
             xhr.send(formData);
         }
-    });
+    }
 
     // Function to validate form data
     function formIsValid() {
