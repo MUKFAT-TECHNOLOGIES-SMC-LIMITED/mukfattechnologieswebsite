@@ -176,7 +176,7 @@ preventDefault();
             };
             xhr.onerror = function () {
                 // Error, display error message in messageArea div
-                document.getElementById("messageArea").style"color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;";
+                document.getElementById("messageArea").style = "color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;";
                 
                 document.getElementById("messageArea").innerText = "An error occurred. Please try again later.";
                 // Change button text back to "Order"
@@ -197,7 +197,7 @@ preventDefault();
 
         if (!name || !company || !contact || !service || !message || !email) {
             // Display error message
-            document.getElementById("messageArea").style "color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;";
+            document.getElementById("messageArea").style = "color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;";
             
             document.getElementById("messageArea").innerText = "Please fill in all fields.";
             return false;
