@@ -134,35 +134,37 @@
 
 
   <script>
-  document.addEventListener("DOMContentLoaded", function () {
+ document.addEventListener("DOMContentLoaded", function () {
     var form = document.getElementById("bookingform");
     var submitButton = document.getElementById("booknowbutton");
 
     submitButton.addEventListener("click", function (event) {
-      event.preventDefault(); // Prevent form submission
+        event.preventDefault(); // Prevent form submission
 
-      // Prepare form data
-      var formData = new FormData(form);
+        // Prepare form data
+        var formData = new FormData(form);
 
-      // Send AJAX request
-      var xhr = new XMLHttpRequest();
-      xhr.open("POST", "backend/gmail.php", true);
-      xhr.onload = function () {
-        if (xhr.status === 200) {
-          // Success, display success message
-          document.querySelector(".sent-message").style.display = "block";
-        } else {
-          // Error, display error message
-          document.querySelector(".error-message").style.display = "block";
-        }
-      };
-      xhr.onerror = function () {
-        // Error, display error message
-        document.querySelector(".error-message").style.display = "block";
-      };
-      xhr.send(formData);
+        // Send AJAX request
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "backend/gmail.php", true);
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                // Success, display success message
+                alert("Your booking has been submitted successfully!");
+                form.reset(); // Clear the form
+            } else {
+                // Error, display error message
+                document.querySelector(".error-message").style.display = "block";
+            }
+        };
+        xhr.onerror = function () {
+            // Error, display error message
+            document.querySelector(".error-message").style.display = "block";
+        };
+        xhr.send(formData);
     });
-  });
+});
+
 </script>
 
 </body>
