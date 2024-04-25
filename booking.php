@@ -108,11 +108,13 @@
               </div>
               <div class="my-3">
                 
-                <div id="messagearea" style="display:none; color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;">for some reason there is failure to make your booking please retry later</div>
+                
                
               </div>
               <div class="text-center"><button  id="booknowbutton" type="button">ORDER</button></div>
             </form>
+
+            <div id="messagearea" style=" color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;"></div>
 
           </div><!-- End Contact Form -->
 
