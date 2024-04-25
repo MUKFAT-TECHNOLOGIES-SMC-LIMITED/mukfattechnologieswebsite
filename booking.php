@@ -111,7 +111,9 @@
                 
                
               </div>
-              <div class="text-center"><button onclick="makeorder();" class="form-control btn btn-primary"  id="booknowbutton" type="button">ORDER</button></div>
+              <div class="text-center">
+                <button onclick="makeorder();" class="form-control btn btn-primary"  id="booknowbutton" type="button">ORDER</button>
+              </div>
             </form>
 
             <div id="messagearea" ></div>
@@ -138,10 +140,10 @@
   <script>    
 
    
-   
+event.preventDefault();
    
     function makeorder(){ 
-        event.preventDefault(); // Prevent form submission
+         
 
         // Check if form data is null
         if (formIsValid()) {
