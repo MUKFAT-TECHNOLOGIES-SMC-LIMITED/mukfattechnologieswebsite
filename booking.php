@@ -111,7 +111,7 @@
                 
                
               </div>
-              <div class="text-center"><button  id="booknowbutton" type="button">ORDER</button></div>
+              <div class="text-center"><button onclick="makeorder()"  id="booknowbutton" type="button">ORDER</button></div>
             </form>
 
             <div id="messagearea" ></div>
@@ -121,7 +121,7 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section><!-- End Contact Section --> 
 
   </main><!-- End #main -->
 
@@ -135,12 +135,12 @@
   <?php include 'major/scripts.php';?>
 
 
-  <script>
-document.addEventListener("DOMContentLoaded", function () {
-    var form = document.getElementById("bookingform");
+  <script>    
+
    
    
-    document.getElementById("booknowbutton").addEventListener("click", function (event) {
+   
+    function makeorder(){ 
         event.preventDefault(); // Prevent form submission
 
         // Check if form data is null
@@ -203,7 +203,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to apply styles to an element
     
-});
+;
 
 
 </script>
