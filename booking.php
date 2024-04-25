@@ -111,7 +111,7 @@
                 
                
               </div>
-              <div class="text-center"><button onclick="makeorder()"  id="booknowbutton" type="button">ORDER</button></div>
+              <div class="text-center"><button onclick="makeorder();"  id="booknowbutton" type="button">ORDER</button></div>
             </form>
 
             <div id="messagearea" ></div>
