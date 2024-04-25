@@ -141,6 +141,8 @@
 
    
 preventDefault();
+
+alert('you fool');
    
     function makeorder(){ 
          
