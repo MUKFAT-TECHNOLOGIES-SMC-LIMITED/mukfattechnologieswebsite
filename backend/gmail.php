@@ -124,7 +124,7 @@ $company = $_POST['company'];
 $clientcontact = $_POST['clientcontact'];
 $service = $_POST['service'];
 $email = $_POST['email'];
-$message = $_POST['messagearea'];
+$message = $_POST['message'];
 $systememail = 'sales@mukfattechnologies.com';
 // Send email
 echo sendConfirmationEmail($name, $email, $service, $message,'client');
