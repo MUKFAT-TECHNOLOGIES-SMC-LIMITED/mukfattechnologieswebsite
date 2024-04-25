@@ -144,39 +144,61 @@ document.addEventListener("DOMContentLoaded", function () {
     submitButton.addEventListener("click", function (event) {
         event.preventDefault(); // Prevent form submission
 
-        // Prepare form data
-        var formData = new FormData(form);
+        // Check if form data is null
+        if (formIsValid()) {
+            // Prepare form data
+            var formData = new FormData(form);
 
-        // Change button text to "Submitting Order"
-        submitButton.innerText = "Submitting Order";
+            // Change button text to "Submitting Order"
+            submitButton.innerText = "Submitting Order";
 
-        // Send AJAX request
-        var xhr = new XMLHttpRequest();
-        xhr.open("POST", "backend/gmail.php", true);
-        xhr.onload = function () {
-            if (xhr.status === 200) {
-                // Success, display success message in messageArea div
-                messageArea.style.color = "green";
-                messageArea.innerText = "Your booking has been submitted successfully!";
-                form.reset(); // Clear the form
-            } else {
+            // Send AJAX request
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "backend/gmail.php", true);
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    // Success, display success message in messageArea div
+                    messageArea.style.color = "green";
+                    messageArea.innerText = "Your booking has been submitted successfully!";
+                    form.reset(); // Clear the form
+                } else {
+                    // Error, display error message in messageArea div
+                    messageArea.style.color = "red";
+                    messageArea.innerText = "An error occurred. Please try again later.";
+                }
+                // Change button text back to "Order"
+                submitButton.innerText = "Order";
+            };
+            xhr.onerror = function () {
                 // Error, display error message in messageArea div
                 messageArea.style.color = "red";
                 messageArea.innerText = "An error occurred. Please try again later.";
-            }
-            // Change button text back to "Order"
-            submitButton.innerText = "Order";
-        };
-        xhr.onerror = function () {
-            // Error, display error message in messageArea div
-            messageArea.style.color = "red";
-            messageArea.innerText = "An error occurred. Please try again later.";
-            // Change button text back to "Order"
-            submitButton.innerText = "Order";
-        };
-        xhr.send(formData);
+                // Change button text back to "Order"
+                submitButton.innerText = "Order";
+            };
+            xhr.send(formData);
+        }
     });
+
+    // Function to validate form data
+    function formIsValid() {
+        var name = form.elements["name"].value;
+        var company = form.elements["company"].value;
+        var contact = form.elements["contact"].value;
+        var service = form.elements["service"].value;
+        var message = form.elements["message"].value;
+        var email = form.elements["email"].value;
+
+        if (!name || !company || !contact || !service || !message || !email) {
+            // Display error message
+            messageArea.style.color = "red";
+            messageArea.innerText = "Please fill in all fields.";
+            return false;
+        }
+        return true;
+    }
 });
+
 
 
 </script>
