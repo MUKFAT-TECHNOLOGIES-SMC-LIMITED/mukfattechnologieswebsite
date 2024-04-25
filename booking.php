@@ -167,7 +167,7 @@ preventDefault();
                     form.reset(); // Clear the form
                 } else {
                     // Error, display error message in messageArea div
-                    document.getElementById("messageArea").style "color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;";
+                    document.getElementById("messageArea").style = "color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;";
                     
                     document.getElementById("messageArea").innerText = "An error occurred. Please try again later.";
                 }
