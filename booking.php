@@ -112,7 +112,7 @@
                
               </div>
               <div class="text-center">
-                <a onclick="makeorder();" class="form-control btn btn-primary"  id="booknowbutton" type="button">ORDER</a>
+                <a onclick="processorder();" class="form-control btn btn-primary"  id="booknowbutton" type="button">ORDER</a>
               </div>
             </form>
 
@@ -144,7 +144,7 @@ preventDefault();
 
 
    
-    function makeorder(){ 
+    function processorder() { 
          
 
         // Check if form data is null
