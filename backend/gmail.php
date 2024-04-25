@@ -32,11 +32,11 @@ function sendConfirmationEmail($name, $email, $service, $message,$contact,$calle
             <p>For tracking purposes, your order has been assigned the following order number: 457-845-786 This unique identifier will help us efficiently manage and monitor the progress of your booking</p>
             <p>Rest assured, our experienced team is dedicated to delivering high-quality results and ensuring that your order progresses smoothly and efficiently.</p>
             <p>If you have any questions or require further assistance, please feel free to reach out to us. We are here to provide support and address any concerns you may have.</p>
-            <p>Thank you for choosing MUKFAT TECHNOLOGIES LTD. We are excited to collaborate with you and bring your order to fruition..</p>
+            <p>Thank you for choosing MUKFAT TECHNOLOGIES SMC LTD. We are excited to collaborate with you and bring your order to fruition..</p>
             <br>
             <p>Best regards,</p>
             <p>Team</p>
-            <p>MUKFAT TECHNOLOGIES LTD</p>
+            <p>MUKFAT TECHNOLOGIES SMC LTD</p>
         </div>
         <div style=\"background-color: #181C85; color: #fff; padding: 10px; text-align: center;\">
             <p style=\"color:white;\">This is a letter sent with the system from the sales department </p>
@@ -67,7 +67,7 @@ function sendConfirmationEmail($name, $email, $service, $message,$contact,$calle
             <br>
             <p>Best regards,</p>
             <p>Team</p>
-            <p>MUKFAT TECHNOLOGIES LTD</p>
+            <p>MUKFAT TECHNOLOGIES SMC LTD</p>
         </div>
         <div style=\"background-color: #181C85; color: #fff; padding: 10px; text-align: center;\">
             <p style=\"color:white;\">This is a notification sent from the SALES department system.</p>
