@@ -150,6 +150,7 @@ preventDefault();
         // Check if form data is null
         if (formIsValid()) {
             // Prepare form data
+            var form = document.getElementById("bookingform");
             var formData = new FormData(form);
 
             // Change button text to "Submitting Order"
