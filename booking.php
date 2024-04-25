@@ -203,7 +203,7 @@
 
     // Function to apply styles to an element
     
-;
+
 
 
 </script>
