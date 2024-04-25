@@ -116,7 +116,7 @@
               </div>
             </form>
 
-            <div id="messagearea" ></div>
+            <div id="messageArea" ></div>
 
           </div><!-- End Contact Form -->
 
@@ -138,7 +138,7 @@
 
 
   <script>    
-alert("welcome to booking we are so happy");
+
    
 preventDefault();
 
