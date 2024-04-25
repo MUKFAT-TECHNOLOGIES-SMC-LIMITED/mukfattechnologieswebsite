@@ -138,10 +138,9 @@
   <script>
 document.addEventListener("DOMContentLoaded", function () {
     var form = document.getElementById("bookingform");
-    var submitButton = document.getElementById("booknowbutton");
-    var messageArea = document.getElementById("messageArea"); // Get reference to the message area div
-
-    submitButton.addEventListener("click", function (event) {
+   
+   
+    document.getElementById("booknowbutton").addEventListener("click", function (event) {
         event.preventDefault(); // Prevent form submission
 
         // Check if form data is null
@@ -150,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function () {
             var formData = new FormData(form);
 
             // Change button text to "Submitting Order"
-            submitButton.innerText = "Submitting Order";
+            document.getElementById("booknowbutton").innerText = "Submitting Order";
 
             // Send AJAX request
             var xhr = new XMLHttpRequest();
@@ -158,26 +157,26 @@ document.addEventListener("DOMContentLoaded", function () {
             xhr.onload = function () {
                 if (xhr.status === 200) {
                     // Success, display success message in messageArea div
-                    var successStyle = "color: green; background: #8BC34A; text-align: left; padding: 15px; font-weight: 600;";
-                    applyStyles(messageArea, successStyle);
-                    messageArea.innerText = "Your booking has been submitted successfully!";
+                    document.getElementById("messageArea").style ="color: green; background: #8BC34A; text-align: left; padding: 15px; font-weight: 600;";
+                    
+                    document.getElementById("messageArea").innerText = "Your booking has been submitted successfully!";
                     form.reset(); // Clear the form
                 } else {
                     // Error, display error message in messageArea div
-                    var errorStyle = "color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;";
-                    applyStyles(messageArea, errorStyle);
-                    messageArea.innerText = "An error occurred. Please try again later.";
+                    document.getElementById("messageArea").style "color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;";
+                    
+                    document.getElementById("messageArea").innerText = "An error occurred. Please try again later.";
                 }
                 // Change button text back to "Order"
-                submitButton.innerText = "Order";
+                document.getElementById("booknowbutton").innerText = "Order";
             };
             xhr.onerror = function () {
                 // Error, display error message in messageArea div
-                var errorStyle = "color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;";
-                applyStyles(messageArea, errorStyle);
-                messageArea.innerText = "An error occurred. Please try again later.";
+                document.getElementById("messageArea").style"color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;";
+                
+                document.getElementById("messageArea").innerText = "An error occurred. Please try again later.";
                 // Change button text back to "Order"
-                submitButton.innerText = "Order";
+                document.getElementById("booknowbutton").innerText = "Order";
             };
             xhr.send(formData);
         }
@@ -194,18 +193,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (!name || !company || !contact || !service || !message || !email) {
             // Display error message
-            var errorStyle = "color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;";
-            applyStyles(messageArea, errorStyle);
-            messageArea.innerText = "Please fill in all fields.";
+            document.getElementById("messageArea").style "color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;";
+            
+            document.getElementById("messageArea").innerText = "Please fill in all fields.";
             return false;
         }
         return true;
     }
 
     // Function to apply styles to an element
-    function applyStyles(element, styles) {
-        element.setAttribute('style', styles);
-    }
+    
 });
 
 
