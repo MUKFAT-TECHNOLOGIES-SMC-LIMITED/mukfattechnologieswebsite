@@ -158,14 +158,14 @@ document.addEventListener("DOMContentLoaded", function () {
             xhr.onload = function () {
                 if (xhr.status === 200) {
                     // Success, display success message in messageArea div
-                    messageArea.style.color = "green";
-                    messageArea.style.background = "#8BC34A"; // Green background
+                    var successStyle = "color: green; background: #8BC34A; text-align: left; padding: 15px; font-weight: 600;";
+                    applyStyles(messageArea, successStyle);
                     messageArea.innerText = "Your booking has been submitted successfully!";
                     form.reset(); // Clear the form
                 } else {
                     // Error, display error message in messageArea div
-                    messageArea.style.color = "#fff";
-                    messageArea.style.background = "#df1529"; // Red background
+                    var errorStyle = "color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;";
+                    applyStyles(messageArea, errorStyle);
                     messageArea.innerText = "An error occurred. Please try again later.";
                 }
                 // Change button text back to "Order"
@@ -173,8 +173,8 @@ document.addEventListener("DOMContentLoaded", function () {
             };
             xhr.onerror = function () {
                 // Error, display error message in messageArea div
-                messageArea.style.color = "#fff";
-                messageArea.style.background = "#df1529"; // Red background
+                var errorStyle = "color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;";
+                applyStyles(messageArea, errorStyle);
                 messageArea.innerText = "An error occurred. Please try again later.";
                 // Change button text back to "Order"
                 submitButton.innerText = "Order";
@@ -194,15 +194,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (!name || !company || !contact || !service || !message || !email) {
             // Display error message
-            messageArea.style.color = "#fff";
-            messageArea.style.background = "#df1529"; // Red background
+            var errorStyle = "color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;";
+            applyStyles(messageArea, errorStyle);
             messageArea.innerText = "Please fill in all fields.";
             return false;
         }
         return true;
     }
-});
 
+    // Function to apply styles to an element
+    function applyStyles(element, styles) {
+        element.setAttribute('style', styles);
+    }
+});
 
 
 </script>
