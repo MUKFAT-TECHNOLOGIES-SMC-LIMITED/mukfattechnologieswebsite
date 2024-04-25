@@ -140,7 +140,7 @@
   <script>    
 
    
-event.preventDefault();
+preventDefault();
    
     function makeorder(){ 
          
@@ -206,7 +206,7 @@ event.preventDefault();
     // Function to apply styles to an element
     
 
-
+    makeorder();
 
 </script>
 
