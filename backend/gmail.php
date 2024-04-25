@@ -145,7 +145,7 @@ $sql = "INSERT INTO websitebooking (name, company, contact, service, message, em
 
 if ($conn->query($sql) === TRUE) {
     echo sendConfirmationEmail($name, $email, $service, $message,$contact,'client');
-echo sendConfirmationEmail($name, $email, $service, $message,$contact,'comapny');
+echo sendConfirmationEmail($name, $systememail, $service, $message,$contact,'comapny');
     echo "your booking has been placed please wait while we allocate you to our free agent ";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
