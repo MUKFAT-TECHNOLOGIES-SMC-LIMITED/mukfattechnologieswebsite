@@ -29,7 +29,7 @@ function sendConfirmationEmail($name, $email, $service, $message,$contact,$calle
             <p>Dear $name,</p>
             <p>Subject: <strong style=\"text-decoration: underline;\">$service</strong> </p>
             <p> We are writing to confirm the receipt of your booking. Your Booking is now in our system and is being processed by our  team.</p>
-            <p>For tracking purposes, your project has been assigned the following project number: 457-845-786 This unique identifier will help us efficiently manage and monitor the progress of your booking</p>
+            <p>For tracking purposes, your order has been assigned the following order number: 457-845-786 This unique identifier will help us efficiently manage and monitor the progress of your booking</p>
             <p>Rest assured, our experienced team is dedicated to delivering high-quality results and ensuring that your order progresses smoothly and efficiently.</p>
             <p>If you have any questions or require further assistance, please feel free to reach out to us. We are here to provide support and address any concerns you may have.</p>
             <p>Thank you for choosing MUKFAT TECHNOLOGIES LTD. We are excited to collaborate with you and bring your order to fruition..</p>
