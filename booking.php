@@ -138,7 +138,7 @@
 
 
   <script>    
-
+alert("welcome to booking we are so happy");
    
 preventDefault();
 
@@ -208,7 +208,6 @@ preventDefault();
     // Function to apply styles to an element
     
 
-    makeorder();
 
 </script>
 
