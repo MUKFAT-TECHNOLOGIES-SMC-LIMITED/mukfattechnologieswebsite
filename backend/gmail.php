@@ -19,7 +19,7 @@ function sendConfirmationEmail($name, $email, $service, $message,$contact,$calle
     
     $email_body = "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; margin: 20px;\">
     <div style=\"max-width: 600px; margin: 0 auto;\">
-        <div style=\"background-color: #181C85; color: #fff; padding: 20px; text-align: center; position: relative;\">
+        <div style=\"background-color: #003B9D; color: #fff; padding: 20px; text-align: center; position: relative;\">
             <h1 style=\"margin-bottom: 10px;\"> MUKFAT TECHNOLOGIES SMC LTD </h1>
             <p>head office Kampala, Uganda</p>
             <h4> SALES DEPARTMENT</h4>
@@ -38,7 +38,7 @@ function sendConfirmationEmail($name, $email, $service, $message,$contact,$calle
             <p>Team</p>
             <p>MUKFAT TECHNOLOGIES SMC LTD</p>
         </div>
-        <div style=\"background-color: #181C85; color: #fff; padding: 10px; text-align: center;\">
+        <div style=\"background-color: #003B9D; color: #fff; padding: 10px; text-align: center;\">
             <p style=\"color:white;\">This is a letter sent with the system from the sales department </p>
         </div>
     </div>
@@ -48,7 +48,7 @@ function sendConfirmationEmail($name, $email, $service, $message,$contact,$calle
 
     $email_body = "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; margin: 20px;\">
     <div style=\"max-width: 600px; margin: 0 auto;\">
-        <div style=\"background-color: #181C85; color: #fff; padding: 20px; text-align: center; position: relative;\">
+        <div style=\"background-color: #003B9D; color: #fff; padding: 20px; text-align: center; position: relative;\">
             <h1 style=\"margin-bottom: 10px;\">MUKFAT TECHNOLOGIES SMC LTD</h1>
             <p>head office Kampala, Uganda</p>
             <h4> SALES DEPARTMENT</h4>
@@ -69,7 +69,7 @@ function sendConfirmationEmail($name, $email, $service, $message,$contact,$calle
             <p>Team</p>
             <p>MUKFAT TECHNOLOGIES SMC LTD</p>
         </div>
-        <div style=\"background-color: #181C85; color: #fff; padding: 10px; text-align: center;\">
+        <div style=\"background-color: #003B9D; color: #fff; padding: 10px; text-align: center;\">
             <p style=\"color:white;\">This is a notification sent from the SALES department system.</p>
         </div>
     </div>
