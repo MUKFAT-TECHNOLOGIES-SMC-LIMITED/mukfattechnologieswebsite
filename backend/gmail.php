@@ -5,7 +5,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-
+include 'database.php';
  // Load PHPMailer library
  require '../vendor/autoload.php';
 // PHPMailer library
@@ -20,7 +20,7 @@ function sendConfirmationEmail($name, $email, $subject, $message,$caller) {
     $email_body = "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; margin: 20px;\">
     <div style=\"max-width: 600px; margin: 0 auto;\">
         <div style=\"background-color: #181C85; color: #fff; padding: 20px; text-align: center; position: relative;\">
-            <h1 style=\"margin-bottom: 10px;\">HARAX CONSULTS LTD</h1>
+            <h1 style=\"margin-bottom: 10px;\">MUKFAT TECHNOLOGIES SMC LTD</h1>
             <p>head office Kampala, Uganda</p>
             <h4> ENGINEERING DEPARTMENT</h4>
         </div>
@@ -50,7 +50,7 @@ function sendConfirmationEmail($name, $email, $subject, $message,$caller) {
     $email_body = "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; margin: 20px;\">
     <div style=\"max-width: 600px; margin: 0 auto;\">
         <div style=\"background-color: #181C85; color: #fff; padding: 20px; text-align: center; position: relative;\">
-            <h1 style=\"margin-bottom: 10px;\">HARAX CONSULTS LTD</h1>
+            <h1 style=\"margin-bottom: 10px;\">MUKFAT TECHNOLOGIES SMC LTD</h1>
             <p>head office Kampala, Uganda</p>
             <h4> ENGINEERING DEPARTMENT</h4>
         </div>
@@ -126,23 +126,40 @@ $service = $_POST['service'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 $systememail = 'sales@mukfattechnologies.com';
-// Send email
-echo sendConfirmationEmail($name, $email, $service, $message,'client');
-echo sendConfirmationEmail($name, $systememail, $service, $message,'comapny');
 
-// if(){
-//      // Prepare SQL statement to insert visit into database
-//      $sql = "INSERT INTO websitmessagessent (acceptlanguage,clienthost,websiteconnection,sessionid,website,ip,useragent,referrer,visittime) 
-//      VALUES ('$accept_language','$host','$connection','$session_id',1,'$ip_address','$user_agent','$referrer',NOW())";
- 
-//      // Execute SQL statement
-//      if ($conn->query($sql) === TRUE) {
-         
-         
-//          // Mark visit as recorded in session to prevent duplicates
-//          $_SESSION['visit_recorded'] = true;
-//      } 
-// }
+
+
+
+$conn = connection();
+
+// Escape user inputs for security
+$name = $conn->real_escape_string($_POST['name']);
+$company = $conn->real_escape_string($_POST['company']);
+$contact = $conn->real_escape_string($_POST['contact']);
+$service = $conn->real_escape_string($_POST['service']);
+$message = $conn->real_escape_string($_POST['message']);
+$email = $conn->real_escape_string($_POST['email']);
+
+// Insert data into database
+$sql = "INSERT INTO websitebooking (name, company, contact, service, message, email) VALUES ('$name', '$company', '$contact', '$service', '$message', '$email')";
+
+if ($conn->query($sql) === TRUE) {
+    echo sendConfirmationEmail($name, $email, $service, $message,'client');
+echo sendConfirmationEmail($name, $email, $service, $message,'comapny');
+    echo "your booking has been placed please wait while we allocate you to our free agent ";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+// Close connection
+$conn->close();
+// Send email
+
+
+
+
+
+
 
 ?>
 
