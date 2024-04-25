@@ -146,7 +146,7 @@
 
       // Send AJAX request
       var xhr = new XMLHttpRequest();
-      xhr.open("POST", "backend/modals/gmail.php", true);
+      xhr.open("POST", "backend/gmail.php", true);
       xhr.onload = function () {
         if (xhr.status === 200) {
           // Success, display success message
