@@ -111,7 +111,7 @@
                 
                
               </div>
-              <div class="text-center"><button onclick="makeorder();"  id="booknowbutton" type="button">ORDER</button></div>
+              <div class="text-center"><button  class="form-control"  id="booknowbutton" type="button">ORDER</button></div>
             </form>
 
             <div id="messagearea" ></div>
@@ -140,7 +140,7 @@
    
    
    
-    function makeorder(){ 
+document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault(); // Prevent form submission
 
         // Check if form data is null
@@ -180,7 +180,7 @@
             };
             xhr.send(formData);
         }
-    }
+    });
 
     // Function to validate form data
     function formIsValid() {
