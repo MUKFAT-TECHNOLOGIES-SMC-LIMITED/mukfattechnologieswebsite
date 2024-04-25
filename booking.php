@@ -107,11 +107,11 @@
                 <textarea class="form-control" name="message"   rows="5" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
+                
                 <div id="messagearea" style="display:none; color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;">for some reason there is failure to make your booking please retry later</div>
                
               </div>
-              <div class="text-center"><button  id="booknowbutton" type="button">Send Message</button></div>
+              <div class="text-center"><button  id="booknowbutton" type="button">ORDER</button></div>
             </form>
 
           </div><!-- End Contact Form -->
@@ -134,9 +134,10 @@
 
 
   <script>
- document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     var form = document.getElementById("bookingform");
     var submitButton = document.getElementById("booknowbutton");
+    var messageArea = document.getElementById("messagearea"); // Get reference to the message area div
 
     submitButton.addEventListener("click", function (event) {
         event.preventDefault(); // Prevent form submission
@@ -144,26 +145,37 @@
         // Prepare form data
         var formData = new FormData(form);
 
+        // Change button text to "Submitting Order"
+        submitButton.innerText = "Submitting Order";
+
         // Send AJAX request
         var xhr = new XMLHttpRequest();
         xhr.open("POST", "backend/gmail.php", true);
         xhr.onload = function () {
             if (xhr.status === 200) {
-                // Success, display success message
-                alert("Your booking has been submitted successfully!");
+                // Success, display success message in messageArea div
+                messageArea.style.color = "green";
+                messageArea.innerText = "Your booking has been submitted successfully!";
                 form.reset(); // Clear the form
             } else {
-                // Error, display error message
-                document.querySelector(".error-message").style.display = "block";
+                // Error, display error message in messageArea div
+                messageArea.style.color = "red";
+                messageArea.innerText = "An error occurred. Please try again later.";
             }
+            // Change button text back to "Order"
+            submitButton.innerText = "Order";
         };
         xhr.onerror = function () {
-            // Error, display error message
-            document.querySelector(".error-message").style.display = "block";
+            // Error, display error message in messageArea div
+            messageArea.style.color = "red";
+            messageArea.innerText = "An error occurred. Please try again later.";
+            // Change button text back to "Order"
+            submitButton.innerText = "Order";
         };
         xhr.send(formData);
     });
 });
+
 
 </script>
 
