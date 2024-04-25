@@ -20,7 +20,7 @@ function sendConfirmationEmail($name, $email, $service, $message,$contact,$calle
     $email_body = "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; margin: 20px;\">
     <div style=\"max-width: 600px; margin: 0 auto;\">
         <div style=\"background-color: #181C85; color: #fff; padding: 20px; text-align: center; position: relative;\">
-            <h1 style=\"margin-bottom: 10px;\">MUKFAT TECHNOLOGIES SMC LTD</h1>
+            <h1 style=\"margin-bottom: 10px;\"> MUKFAT TECHNOLOGIES SMC LTD </h1>
             <p>head office Kampala, Uganda</p>
             <h4> SALES DEPARTMENT</h4>
         </div>
@@ -145,7 +145,7 @@ $sql = "INSERT INTO websitebooking (name, company, contact, service, message, em
 
 if ($conn->query($sql) === TRUE) {
     echo sendConfirmationEmail($name, $email, $service, $message,$contact,'client');
-echo sendConfirmationEmail($name, $email, $service, $message,'comapny');
+echo sendConfirmationEmail($name, $email, $service, $message,$contact,'comapny');
     echo "your booking has been placed please wait while we allocate you to our free agent ";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
