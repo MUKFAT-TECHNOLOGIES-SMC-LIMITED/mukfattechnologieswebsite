@@ -46,7 +46,7 @@ Our social media platforms are like windows into a universe of creativity, updat
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4 style="color:white;">Contact Us</h4>
             <p style="color:white;">
-              nasser road <br>
+            Nkrumah road <br>
               kampala<br>
               Uganda <br><br>
               <strong style="color:white;">Phone:</strong> +256-760-266-034<br>

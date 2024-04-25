@@ -11,25 +11,25 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('files/1.jpg');">
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('files/otherheader/5.webp');">
       <div class="container position-relative d-flex flex-column align-items-center">
 
-        <h2>Blog Details</h2>
+        <h2>SENTE NETWORK</h2>
         <ol>
           <li><a href="index.php">Home</a></li>
-          <li>Blog Details</li>
+          <li>SENTE NETWORK</li>
         </ol>
 
       </div>
     </div><!-- End Breadcrumbs -->
 
     <!-- ======= Blog Details Section ======= -->
-    <section id="blog" class="blog">
-      <div class="container" data-aos="fade-up">
+    <section style="background-color: #47aeff;" id="blog" class="blog">
+      <div  class="container" data-aos="fade-up">
 
         <div class="row g-5">
 
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+          <div style="background-color: #001f3f; color: white;" class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
 
             <article class="blog-details">
 
@@ -37,56 +37,148 @@
                 <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
               </div>
 
-              <h2 class="title">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h2>
+              
 
-              <div class="meta-top">
-                <ul>
-                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.php">John Doe</a></li>
-                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.php"><time datetime="2020-01-01">Jan 1, 2022</time></a></li>
-                  <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.php">12 Comments</a></li>
-                </ul>
-              </div><!-- End meta top -->
+             
 
-              <div class="content">
+              <div  class="content">
                 <p>
-                  Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
-                  Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
+                Welcome to SENTE NETWORK, where education meets innovation. Our platform revolutionizes the learning experience, providing students, educators, and parents with a comprehensive solution for academic excellence. With cutting-edge technology and intuitive features, SENTE NETWORK empowers schools to thrive in the digital age, fostering collaboration, engagement, and success for all stakeholders. Join us on the journey to redefine education and unlock the potential of every learner.
                 </p>
 
-                <p>
-                  Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.
-                </p>
+               
 
                 <blockquote>
-                  <p>
-                    Et vero doloremque tempore voluptatem ratione vel aut. Deleniti sunt animi aut. Aut eos aliquam doloribus minus autem quos.
+                  <p style="color: white;">
+                  Education is the key to unlocking infinite possibilities. At SENTE NETWORK, we're committed to empowering every student to discover, learn, and succeed beyond boundaries
                   </p>
                 </blockquote>
 
                 <p>
-                  Sed quo laboriosam qui architecto. Occaecati repellendus omnis dicta inventore tempore provident voluptas mollitia aliquid. Id repellendus quia. Asperiores nihil magni dicta est suscipit perspiciatis. Voluptate ex rerum assumenda dolores nihil quaerat.
-                  Dolor porro tempora et quibusdam voluptas. Beatae aut at ad qui tempore corrupti velit quisquam rerum. Omnis dolorum exercitationem harum qui qui blanditiis neque.
-                  Iusto autem itaque. Repudiandae hic quae aspernatur ea neque qui. Architecto voluptatem magni. Vel magnam quod et tempora deleniti error rerum nihil tempora.
+                Today, we're diving into the future of education with SENTE NETWORK, a revolutionary platform that's redefining the way we learn and teach. As we embark on this journey, let's explore the remarkable features that set SENTE NETWORK apart and empower students, educators, and parents to succeed in the digital age.
                 </p>
 
-                <h3>Et quae iure vel ut odit alias.</h3>
                 <p>
-                  Officiis animi maxime nulla quo et harum eum quis a. Sit hic in qui quos fugit ut rerum atque. Optio provident dolores atque voluptatem rem excepturi molestiae qui. Voluptatem laborum omnis ullam quibusdam perspiciatis nulla nostrum. Voluptatum est libero eum nesciunt aliquid qui.
-                  Quia et suscipit non sequi. Maxime sed odit. Beatae nesciunt nesciunt accusamus quia aut ratione aspernatur dolor. Sint harum eveniet dicta exercitationem minima. Exercitationem omnis asperiores natus aperiam dolor consequatur id ex sed. Quibusdam rerum dolores sint consequatur quidem ea.
-                  Beatae minima sunt libero soluta sapiente in rem assumenda. Et qui odit voluptatem. Cum quibusdam voluptatem voluptatem accusamus mollitia aut atque aut.
+                From seamless communication tools to personalized learning experiences, SENTE NETWORK offers a comprehensive suite of features designed to enhance collaboration, engagement, and academic achievement. Join us as we delve deeper into how SENTE NETWORK's innovative features are shaping the future of education and transforming the learning landscape.
                 </p>
-                <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="">
 
-                <h3>Ut repellat blanditiis est dolore sunt dolorum quae.</h3>
+
+
+
+
+                <img src="files/otherheader/4.webp" class="img-fluid" alt="">
+                <h3 id="admission">Effortless and digitalized Student Admissions</h3>
                 <p>
-                  Rerum ea est assumenda pariatur quasi et quam. Facilis nam porro amet nostrum. In assumenda quia quae a id praesentium. Quos deleniti libero sed occaecati aut porro autem. Consectetur sed excepturi sint non placeat quia repellat incidunt labore. Autem facilis hic dolorum dolores vel.
-                  Consectetur quasi id et optio praesentium aut asperiores eaque aut. Explicabo omnis quibusdam esse. Ex libero illum iusto totam et ut aut blanditiis. Veritatis numquam ut illum ut a quam vitae.
+                Simplify your admissions process with eAdmit, a feature of SENTE NETWORK. Automated forms, notifications, and data management streamline the journey for both administrators and applicants. With customizable forms and real-time updates, stay informed and organized throughout the enrollment process. eAdmit ensures efficiency, accuracy, and transparency, making student admissions effortless and stress-free. Experience the convenience of eAdmit today and welcome new students with ease. Join the ranks of schools revolutionizing their admissions process with SENTE NETWORK's cutting-edge technology.
                 </p>
+                <img src="files/otherheader/4.webp" class="img-fluid" alt="">
+
+                <h3>Optimize Your Staff Management </h3>
+                <p>Transform your staff management process with eStaff by SENTE NETWORK. From scheduling to performance evaluation, eStaff offers a comprehensive solution for administrators to efficiently oversee their workforce. With intuitive features such as payroll management, scheduling, and performance evaluations, eStaff simplifies administrative tasks, allowing educators to focus on what they do best – teaching. Empower your staff and enhance productivity with eStaff, the ultimate staff management solution for modern educational institutions</p>
+               
+                 <img src="files/otherheader/4.webp" class="img-fluid" alt="">
+                <h3>Empower and manage Your students in the Institution</h3>
                 <p>
-                  Alias quia non aliquid. Eos et ea velit. Voluptatem maxime enim omnis ipsa voluptas incidunt. Nulla sit eaque mollitia nisi asperiores est veniam.
+                Revolutionize student management with eStudent by SENTE NETWORK. From enrollment to graduation, eStudent offers a seamless solution for administrators to oversee student data and interactions. With features like enrollment tracking, academic performance monitoring, and communication tools, eStudent streamlines administrative tasks and enhances student engagement. Empower your institution with eStudent and unlock the full potential of your student body.
                 </p>
+                <img src="files/otherheader/4.webp" class="img-fluid" alt="">
+
+                <h3>Efficient Accounting and Finance Management </h3>
+                <p>Streamline your accounting and finance tasks with our comprehensive management system. From budgeting to invoicing, our platform offers intuitive tools to simplify financial processes and ensure accuracy. With customizable reports and real-time data tracking, stay informed and make informed decisions to drive financial success. Experience the efficiency and reliability of our accounting and finance management solution today.</p>
+               
+
+
+                <img src="files/otherheader/4.webp" class="img-fluid" alt="">
+
+<h3>Task and Duty Management Made Simple </h3>
+<p>Take control of your organization's tasks and duties with our user-friendly management system. From assignment to completion, our platform streamlines task tracking, delegation, and monitoring. With customizable workflows and real-time updates, stay organized and efficient in managing your team's responsibilities. Experience seamless task management and boost productivity across your organization</p>
+
+
+
+
+<img src="files/otherheader/4.webp" class="img-fluid" alt="">
+
+<h3>Efficient Assets and Resource Management </h3>
+<p>Optimize your organization's assets and resources with our comprehensive management system. From procurement to allocation, our platform offers intuitive tools to streamline asset tracking and resource utilization. With customizable reports and real-time data tracking, maximize efficiency and minimize waste. Experience the power of efficient asset and resource management today.</p>
+
+
+
+
+<img src="files/otherheader/4.webp" class="img-fluid" alt="">
+
+<h3>Digital Banking Management Solutions </h3>
+<p>Transform your banking operations with our cutting-edge digital management solutions. From account management to transaction monitoring, our platform offers intuitive tools to streamline digital banking processes. With robust security features and real-time data analytics, stay ahead of the curve and provide superior banking services to your customers. Experience the future of digital banking management with our innovative solutions</p>
+
+
+
+
+<img src="files/otherheader/4.webp" class="img-fluid" alt="">
+
+<h3>Efficient Tax Management Solutions </h3>
+<p>Optimize your tax processes with our comprehensive management solutions. From filing to compliance, our platform offers intuitive tools to simplify tax management and ensure accuracy. With customizable reports and real-time updates, stay informed and compliant with changing tax regulations. Experience seamless tax management and maximize savings for your organization.</p>
+
+
+
+<img src="files/otherheader/4.webp" class="img-fluid" alt="">
+
+<h3>Enhance Co-curricular Activities Management </h3>
+<p>Elevate your co-curricular activities with our comprehensive management system. From sports teams to clubs and e-voting, our platform offers intuitive tools to streamline organization and communication. With customizable event scheduling, attendance tracking, and voting features, empower your students and staff to participate and engage fully. Experience seamless co-curricular activity management and foster a vibrant campus community.</p>
+
+
+
+
+<img src="files/otherheader/4.webp" class="img-fluid" alt="">
+
+<h3>Empower Classroom and Learning Management </h3>
+<p>Transform education with our integrated classroom and learning management system. From lesson planning to assessment, our platform offers intuitive tools to enhance teaching and learning experiences. With features such as gradebook management, assignment tracking, and interactive learning resources, engage students and streamline administrative tasks. Experience the future of education with our comprehensive classroom and learning management solution.</p>
+
+
+
+
+<img src="files/otherheader/4.webp" class="img-fluid" alt="">
+
+<h3>Efficient Examination Management and Setting </h3>
+<p>Simplify examination processes with our comprehensive management system. From scheduling to grading, our platform offers intuitive tools to streamline examination management and setting. With features such as exam scheduling, question bank management, and result processing, ensure efficiency and accuracy throughout the examination cycle. Experience seamless examination management and setting for your institution.</p>
+
+
+
+
+<img src="files/otherheader/4.webp" class="img-fluid" alt="">
+
+<h3 id="health">Comprehensive Health Management Solution </h3>
+<p>Optimize healthcare processes with our comprehensive management solution. From patient records to appointment scheduling, our platform offers intuitive tools to streamline health management. With features such as electronic health records, medication tracking, and telemedicine capabilities, enhance patient care and operational efficiency. Experience seamless health management and improve outcomes for your organization</p>
+
+
+
+
 
               </div><!-- End post content -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
               <div class="meta-bottom">
                 <i class="bi bi-folder"></i>
@@ -260,8 +352,8 @@
               <div class="sidebar-item categories">
                 <h3 class="sidebar-title">packages</h3>
                 <ul class="mt-3">
-                  <li><a href="#">starter <span>(25)</span></a></li>
-                  <li><a href="#">basic <span>(12)</span></a></li>
+                  <li><a href="#admission">starter <span>(25)</span></a></li>
+                  <li><a href="#health">basic <span>(12)</span></a></li>
                   <li><a href="#">standard <span>(5)</span></a></li>
                   <li><a href="#">primum <span>(22)</span></a></li>
                  

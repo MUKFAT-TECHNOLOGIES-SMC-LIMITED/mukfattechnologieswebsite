@@ -50,7 +50,7 @@
             <div class="info-item d-flex">
               <i style="color:white;" class="bi bi-whatsapp flex-shrink-0"></i>
               <div>
-                <h4 style="color:white;">whatsapp:</h4>-
+                <h4 style="color:white;">whatsapp:</h4>
                 <p style="color:white;">+256760266034</p>
               </div>
             </div><!-- End Info Item -->
@@ -62,10 +62,10 @@
             <form id="bookingform" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-4 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text"  class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-4 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" id="email" placeholder="Your Email" required>
                 </div>
 
                 <div class="col-md-4 form-group mt-3 mt-md-0">
@@ -74,11 +74,11 @@
               </div>
 
               <div class="form-group mt-3">
-              <input type="email" class="form-control" name="company" id="company" placeholder="Your organisation " required>
+              <input type="text" class="form-control" name="company" id="company" placeholder="Your organisation " required>
               </div>
 
               <div class="form-group mt-3">
-                <select type="text" class="form-control"  name="service" id="service" required>
+                <select type="text" class="form-control"   id="service" required>
                   <option value="">service</option>
                   <option>website development</option>
                   <option>software support </option>
@@ -111,7 +111,7 @@
                 <div id="messagearea" style="display:none; color: #fff; background: #df1529; text-align: left; padding: 15px; font-weight: 600;">for some reason there is failure to make your booking please retry later</div>
                
               </div>
-              <div class="text-center"><button onclick="booknow()" id="booknowbutton" type="button">Send Message</button></div>
+              <div class="text-center"><button  id="booknowbutton" type="button">Send Message</button></div>
             </form>
 
           </div><!-- End Contact Form -->
@@ -131,6 +131,39 @@
   <div id="preloader"></div>
 
   <?php include 'major/scripts.php';?>
+
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var form = document.getElementById("bookingform");
+    var submitButton = document.getElementById("booknowbutton");
+
+    submitButton.addEventListener("click", function (event) {
+      event.preventDefault(); // Prevent form submission
+
+      // Prepare form data
+      var formData = new FormData(form);
+
+      // Send AJAX request
+      var xhr = new XMLHttpRequest();
+      xhr.open("POST", "backend/modals/gmail.php", true);
+      xhr.onload = function () {
+        if (xhr.status === 200) {
+          // Success, display success message
+          document.querySelector(".sent-message").style.display = "block";
+        } else {
+          // Error, display error message
+          document.querySelector(".error-message").style.display = "block";
+        }
+      };
+      xhr.onerror = function () {
+        // Error, display error message
+        document.querySelector(".error-message").style.display = "block";
+      };
+      xhr.send(formData);
+    });
+  });
+</script>
 
 </body>
 

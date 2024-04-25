@@ -3,6 +3,7 @@
 // Start or resume session
 session_start();
 
+
 include 'backend/database.php';
 
 // Check if visit has already been recorded during this session

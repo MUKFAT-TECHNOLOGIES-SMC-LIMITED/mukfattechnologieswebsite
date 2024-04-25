@@ -5,6 +5,11 @@
 
 <?php include 'major/head.php'; ?>
 
+
+
+
+
+
 <body class="page-index">
 
   <!-- ======= Header ======= -->
@@ -357,7 +362,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
         <p class="card-text">Unlocking business potential with flexible and secure cloud computing solutions.</p>
       </div>
       <div class="bg-primary card-footer">
-        <a href="productdetails.php" class="text-muted">link</a>
+        <a href="eschool.php" style="background-color: white;" class="btn text-muted">read more</a>
       </div>
     </div>
   </div>
@@ -369,7 +374,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
         <p class="card-text">Efficient web solutions through state-of-the-art web application development.</p>
       </div>
       <div class="bg-success card-footer">
-        <small class="text-muted">link</small>
+      <a href="ibms.php" style="background-color: white;" class="btn  text-muted">read more</a>
       </div>
     </div>
   </div>
@@ -381,7 +386,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
         <p class="card-text">Ensuring reliable network performance through professional installation and maintenance. </p>
       </div>
       <div class="bg-danger card-footer">
-        <small class="text-muted">link</small>
+      <a href="dlearn.php" style="background-color: white;" class="btn  text-muted">read more</a>
       </div>
     </div>
   </div>
@@ -393,7 +398,7 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
         <p class="card-text">Empowering businesses with professional, cutting-edge website development</p>
       </div>
       <div class=" bg-warning card-footer">
-        <small class="text-muted">link</small>
+      <a href="sentenetwork.php" style="background-color: white;" class="btn  text-muted">read more</a>
       </div>
     </div>
   </div>
