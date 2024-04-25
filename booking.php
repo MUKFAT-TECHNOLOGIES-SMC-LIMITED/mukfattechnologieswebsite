@@ -185,12 +185,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to validate form data
     function formIsValid() {
-        var name = form.elements["name"].value;
-        var company = form.elements["company"].value;
-        var contact = form.elements["contact"].value;
-        var service = form.elements["service"].value;
-        var message = form.elements["message"].value;
-        var email = form.elements["email"].value;
+        var name = document.getElementById("name").value;
+        var company = document.getElementById("company").value;
+        var contact = document.getElementById("contact").value;
+        var service = document.getElementById("service").value;
+        var message = document.getElementById("message").value;
+        var email = document.getElementById("email").value;
 
         if (!name || !company || !contact || !service || !message || !email) {
             // Display error message
@@ -202,6 +202,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return true;
     }
 });
+
 
 
 </script>
