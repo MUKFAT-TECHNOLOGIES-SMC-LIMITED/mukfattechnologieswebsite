@@ -190,7 +190,7 @@ preventDefault();
     function formIsValid() {
         var name = document.getElementById("name").value;
         var company = document.getElementById("company").value;
-        var contact = document.getElementById("contact").value;
+        var contact = document.getElementById("clientcontact").value;
         var service = document.getElementById("service").value;
         var message = document.getElementById("message").value;
         var email = document.getElementById("email").value;
