@@ -5,7 +5,7 @@
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.php" class="logo d-flex align-items-center">
-              <span style="color:white;"> SOCIALS PLATEFORMS</span>
+              <span style="color:white;"> SOCIALS</span>
             </a>
             <p style="color:white;">We're thrilled to have you on our website, where the magic happens! 🚀✨ But guess what? The excitement doesn't stop here. Did you know that we're also curating a world of wonder and spreading awesomeness on social media? 🌐✨
 

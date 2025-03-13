@@ -25,52 +25,70 @@
 
  <div  id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+
+  <?php
+          // Fetch data from the table
+          $query = "SELECT  id FROM websitecousel   ";
+          $result = mysqli_query(connection(), $query);
+          $response="";
+          // Check if there are any rows returned
+          if (mysqli_num_rows($result) > 0) {
+              // Loop through each row and display the data
+              while ($row = mysqli_fetch_assoc($result)) {
+                 
+                $response.='<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="'.$row['id'].'" aria-label="Slide 2"></button>'; 
+              
+                
+                
+              }
+          } else {echo "No data found in the table.";}
+          
+          echo($response);
+          ?>
   </div>
   <div class="carousel-inner">
+
+
     <div class="carousel-item active">
       <img src="files/coursel/1.webp" class="d-block w-100" alt="...">
       <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
-        <h5>Mastering the Digital Landscape</h5>
-        <p> Embark on a journey led by seasoned professionals to explore the intricacies of managing complex networks. This course equips you with the knowledge and skills needed to navigate the ever-evolving digital ecosystem with confidence. From designing robust infrastructures to optimizing performance and security, learn how to orchestrate networks effectively to meet the demands of modern enterprises. Join us and become a proficient network architect capable of steering organizations towards seamless connectivity and innovation.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="files/coursel/2.webp" class="d-block w-100" alt="...">
-      <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
-        <h5>Personalized One-on-One Software Training</h5>
-        <p>Unlock the full potential of our software with our exclusive one-on-one training program. Experience personalized guidance tailored to your unique needs and skill level. Our expert instructors will walk you through every aspect of the software, from basic functionalities to advanced techniques, ensuring you gain comprehensive mastery. Whether you're a beginner looking to grasp the fundamentals or an experienced user aiming to refine your skills, our customized approach guarantees efficient and effective learning. Embrace a transformative learning journey and elevate your proficiency with our dedicated one-on-one software training.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="files/coursel/3.webp" class="d-block w-100" alt="...">
-      <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
-        <h5>Unveiling Opportunities, Unlocking Potential</h5>
-        <p>Empower your business with our strategic consultation services tailored to your specific needs. Our team of seasoned experts will work closely with you to analyze your challenges, identify opportunities, and devise actionable strategies for success. From market analysis to operational optimization, we provide comprehensive guidance to help you navigate complexities and achieve your goals. Through collaborative sessions and in-depth discussions, we aim to unlock the full potential of your business and drive sustainable growth. Experience the power of strategic consultation and chart a path towards lasting success.</p>
+        <h5>vvv</h5>
+        <p>...........</p>
       </div>
     </div>
 
 
-    <div class="carousel-item">
-      <img src="files/coursel/4.webp" class="d-block w-100" alt="...">
+    <?php
+          // Fetch data from the table
+          $query = "SELECT  title,description,image FROM websitecousel   ";
+          $result = mysqli_query(connection(), $query);
+          $response="";
+          // Check if there are any rows returned
+          if (mysqli_num_rows($result) > 0) {
+              // Loop through each row and display the data
+              while ($row = mysqli_fetch_assoc($result)) {
+                 
+                $response.='
+                
+                <div class="carousel-item ">
+      <img src="'.$row['image'].'" class="d-block w-100" alt="...">
       <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
-        <h5>Fostering Excellence Through Commitment</h5>
-        <p>Introducing our Serious Staff Spotlight program, where dedication meets excellence. We recognize the invaluable contribution of our committed team members who consistently go above and beyond in their roles. Through this initiative, we shine a light on the professionalism, expertise, and unwavering dedication of our serious staff. From project management wizards to problem-solving gurus, our serious staff members embody the ethos of excellence in everything they do. Join us in celebrating their achievements and the positive impact they make on our organization each day</p>
+        <h5>'.$row['title'].'</h5>
+        <p>'.$row['description'].'</p>
       </div>
     </div>
+    
+    ';     
+              }
+          } else {echo "No data found in the table.";}
+          
+          echo($response);
+          ?>
 
-    <div class="carousel-item">
-      <img src="files/coursel/5.webp" class="d-block w-100" alt="...">
-      <div style="background-color: #001f3f;" class="carousel-caption d-none d-md-block">
-        <h5>Customer Happiness Chronicles</h5>
-        <p>Embark on a journey through our Customer Happiness Chronicles, where satisfaction meets success. Delve into the stories of our delighted customers who have experienced firsthand the exceptional service and products we offer. From glowing testimonials to remarkable case studies, these narratives highlight the transformative impact of our solutions on their businesses and lives. Join us in celebrating the joy of customer satisfaction and the meaningful relationships we've built along the way. Explore the Customer Happiness Chronicles and witness the power of happy customers driving our success forward.</p>
-      </div>
-    </div>
 
+   
+  
 
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -199,39 +217,37 @@
             <div class="slides-1 swiper">
               <div class="swiper-wrapper">
 
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">Client-Centric Approach</h3>
-                    <h4 class="mb-3">Your Needs Always Come First.</h4>
-                    <p>A client-centric approach lies at the heart of MukFat Technologies. We prioritize understanding client needs, crafting tailored solutions, maintaining clear communication, adapting to changes, and providing continuous support</p>
-                  </div>
-                </div><!-- End slide item -->
+               
 
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">Experienced and Skilled engineers</h3>
-                    <h4 class="mb-3">Knowledge You Can Rely On.</h4>
-                    <p>
-Our team at MukFat Technologies is comprised of highly experienced and skilled engineers who possess a wealth of knowledge and expertise in the technological landscape. With their diverse skill sets and innovative mindset, they consistently deliver high-quality solutions that exceed expectations.</p>
-                  </div>
-                </div><!-- End slide item -->
 
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">Results-Driven </h3>
-                    <h4 class="mb-3">Your Success is Our Mission.</h4>
-                    <p>
-Our team of experienced and skilled engineers at MukFat Technologies is not only highly proficient but also passionately results-driven. They are dedicated to achieving tangible outcomes and exceeding expectations through their innovative solutions and collaborative approach.</p>
-                  </div>
-                </div><!-- End slide item -->
 
+                <?php
+          // Fetch data from the table
+          $query = "SELECT  title,subtitle,description FROM whychooseus   ";
+          $result = mysqli_query(connection(), $query);
+          $response="";
+          // Check if there are any rows returned
+          if (mysqli_num_rows($result) > 0) {
+              // Loop through each row and display the data
+              while ($row = mysqli_fetch_assoc($result)) {
+                 
+                $response.='
                 <div class="swiper-slide">
                   <div class="item">
-                    <h3 class="mb-3">Trusted Reputation and Client Satisfaction</h3>
-                    <h4 class="mb-3">Testimonials Speak for Themselves.</h4>
-                    <p>Renowned for our trusted reputation and unwavering commitment to client satisfaction, MukFat Technologies is your reliable partner for transformative solutions.</p>
+                    <h3 class="mb-3">'.$row['title'].'</h3>
+                    <h4 class="mb-3">'.$row['subtitle'].'</h4>
+                    <p>'.$row['description'].'</p>
                   </div>
-                </div><!-- End slide item -->
+                </div>';     
+              }
+          } else {echo "No data found in the table.";}
+          
+          echo($response);
+          ?>
+
+               
+
+        
 
               </div>
               <div class="swiper-pagination"></div>
@@ -268,44 +284,39 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
 
 
         <div class="row row-cols-1 row-cols-md-4 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <img style="object-fit: cover; width: 100%; height:300px;" src="assets/img/13.webp" class="card-img-top" alt="...">
-      <div style="background-color: #47aeff;" class="card-body">
-        <h5 class="card-title">hosting & cloud computing</h5> 
-        <p class="card-text">Unlocking business potential with flexible and secure cloud computing solutions.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img style="object-fit: cover; width: 100%; height:300px;" src="files/services/7.webp" class="card-img-top" alt="...">
-      <div style="background-color: #47aeff;" class="card-body">
-        <h5 class="card-title">hardware sales & maintinance</h5>
-        <p class="card-text">Efficient web solutions through state-of-the-art web application development.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img style="object-fit: cover; width: 100%; height:300px;" src="files/services/3.webp" class="card-img-top" alt="...">
-      <div style="background-color: #47aeff;" class="card-body">
-        <h5 class="card-title">networking</h5>
-        <p class="card-text">Ensuring reliable network performance through professional installation and maintenance. </p>
-      </div>
-    </div>
-  </div>
+ 
 
-  
-  <div class="col">
-    <div class="card h-100">
-      <img style="object-fit: cover; width: 100%; height:300px;" src="files/services/1.webp" class="card-img-top" alt="...">
-      <div style="background-color: #47aeff;" class="card-body">
-        <h5 class="card-title">web & mobile development</h5>
-        <p class="card-text">Empowering businesses with professional, cutting-edge website development</p>
-      </div>
-    </div>
-  </div>
+
+
+  <?php
+          // Fetch data from the table
+          $query = "SELECT  name,description,serviceimage FROM services where onlinestatus = 1  ";
+          $result = mysqli_query(connection(), $query);
+          $response="";
+          // Check if there are any rows returned
+          if (mysqli_num_rows($result) > 0) {
+              // Loop through each row and display the data
+              $counter = 0;
+              while ($row = mysqli_fetch_assoc($result)) {
+                $response.='
+                
+                <div class="col">
+                <div class="card h-100">
+                  <img style="object-fit: cover; width: 100%; height:300px;" src="'.$row['serviceimage'].'" class="card-img-top" alt="...">
+                  <div style="background-color: #47aeff;" class="card-body">
+                    <h5 class="card-title">'.$row['name'].'</h5> 
+                    <p class="card-text">'.$row['description'].'</p>
+                  </div>
+                </div>
+              </div>
+              ';     
+              }
+          } else {echo "No data found in the table.";}
+          
+          echo($response);
+          ?>
+
+
 </div>
 
 
@@ -354,54 +365,43 @@ Our team of experienced and skilled engineers at MukFat Technologies is not only
 
 
         <div class="row row-cols-1 row-cols-md-4 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <img src="files/1.webp" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">ESCHOOL</h5>
-        <p class="card-text">Unlocking business potential with flexible and secure cloud computing solutions.</p>
-      </div>
-      <div class="bg-primary card-footer">
-        <a href="eschool.php" style="background-color: white;" class="btn text-muted">read more</a>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="files/2.webp" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">IBMS</h5>
-        <p class="card-text">Efficient web solutions through state-of-the-art web application development.</p>
-      </div>
-      <div class="bg-success card-footer">
-      <a href="ibms.php" style="background-color: white;" class="btn  text-muted">read more</a>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="files/3.webp" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">DLEARN</h5>
-        <p class="card-text">Ensuring reliable network performance through professional installation and maintenance. </p>
-      </div>
-      <div class="bg-danger card-footer">
-      <a href="dlearn.php" style="background-color: white;" class="btn  text-muted">read more</a>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="files/4.webp" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">SENTE NETWORK</h5>
-        <p class="card-text">Empowering businesses with professional, cutting-edge website development</p>
-      </div>
-      <div class=" bg-warning card-footer">
-      <a href="sentenetwork.php" style="background-color: white;" class="btn  text-muted">read more</a>
-      </div>
-    </div>
-  </div>
+
+
+
+
+ <?php
+          // Fetch data from the table
+          $query = "SELECT  name,description,productimage,colour FROM products ";
+          $result = mysqli_query(connection(), $query);
+          $response="";
+          // Check if there are any rows returned
+          if (mysqli_num_rows($result) > 0) {
+              // Loop through each row and display the data
+              $counter = 0;
+              while ($row = mysqli_fetch_assoc($result)) {
+                $response.='
+
+                <div class="col">
+                <div class="card h-100">
+                  <img src="'.$row['productimage'].'" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">'.$row['name'].'</h5>
+                    <p class="card-text">'.$row['description'].'</p>
+                  </div>
+                  <div class="bg-'.$row['colour'].' card-footer">
+                    <a href="eschool.php" style="background-color: white;" class="btn text-muted">read more</a>
+                  </div>
+                </div>
+              </div>
+              ';     
+              }
+          } else {echo "No data found in the table.";}
+          
+          echo($response);
+          ?>
+
+
+
 </div>
 
 
